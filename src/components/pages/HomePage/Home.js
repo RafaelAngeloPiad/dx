@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Hero from "../../Hero";
 import HeroImg from "../../HeroImg";
 import {
@@ -9,33 +9,24 @@ import {
   tiles,
   header,
   about,
+  dataSlider,
 } from "./Data";
 import Pricing from "../../Pricing";
 import Tiles from "../../Tiles";
 import Header from "../../Header";
 import About from "../../About";
 import Slider from "../../Slider";
+import ScrollToTop from "../../Scrolltotop";
 function Home() {
-  // const [wLoc, setwLoc] = useState(window.location.href);
-
-  // useEffect(() => {
-  //   setwLoc(window.location.href);
-  // });
-
-  // useEffect(() => {
-  //   if (wLoc.split("#")[1]) {
-  //     console.log("splitted bitch");
-  //   }
-  // }, [wLoc]);
-
   return (
     <>
+      <ScrollToTop />
       <Hero {...Headliner} />
       <Header data={header} />
       <HeroImg data={header} />
       <Hero {...homeObjThree} />
       <Hero {...homeObjTwo} />
-      <Slider />
+      <Slider data={dataSlider} />
       <Pricing />
       <Tiles data={tiles} />
       <Hero {...homeObjFour} />

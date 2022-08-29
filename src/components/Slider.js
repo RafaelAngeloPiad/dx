@@ -1,19 +1,19 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import "./css/Slider.css";
-import BtnSlider from "./BtnSlider";
-import dataSlider from "./dataSlider";
+import leftArrow from "./icons/left-arrow.svg";
+import rightArrow from "./icons/right-arrow.svg";
 
-export default function Slider() {
+export default function Slider(props) {
   const [slideIndex, setSlideIndex] = useState(1);
 
-  const timer = setTimeout(() => {
-    nextSlide();
-  }, 9000);
+  // setTimeout(() => {
+  //   nextSlide();
+  // }, 9000);
 
   const nextSlide = () => {
-    if (slideIndex !== dataSlider.length) {
+    if (slideIndex !== props.data.length) {
       setSlideIndex(slideIndex + 1);
-    } else if (slideIndex === dataSlider.length) {
+    } else if (slideIndex === props.data.length) {
       setSlideIndex(1);
     }
   };
@@ -22,7 +22,7 @@ export default function Slider() {
     if (slideIndex !== 1) {
       setSlideIndex(slideIndex - 1);
     } else if (slideIndex === 1) {
-      setSlideIndex(dataSlider.length);
+      setSlideIndex(props.data.length);
     }
   };
 
@@ -32,23 +32,32 @@ export default function Slider() {
 
   return (
     <div className="container-slider">
-      {dataSlider.map((obj, index) => {
+      {props.data.map((obj, index) => {
         return (
           <div
             key={obj.id}
             className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
           >
             <p>{obj.title}</p>
-            <img src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`} />
+            <img
+              src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`}
+              alt="Slider"
+            />
           </div>
         );
       })}
-      <BtnSlider moveSlide={nextSlide} direction={"next"} />
-      <BtnSlider moveSlide={prevSlide} direction={"prev"} />
+      <button onClick={nextSlide} className={"btn-slide next"}>
+        <img src={rightArrow} alt="Slider Right" />
+      </button>
+
+      <button onClick={prevSlide} className={"btn-slide prev"}>
+        <img src={leftArrow} alt="Slider Left" />
+      </button>
 
       <div className="container-dots">
         {Array.from({ length: 5 }).map((item, index) => (
           <div
+            key={index}
             onClick={() => moveDot(index + 1)}
             className={slideIndex === index + 1 ? "dot active" : "dot"}
           ></div>

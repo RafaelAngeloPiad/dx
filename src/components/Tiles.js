@@ -4,10 +4,10 @@ function ServicesTiles(props) {
     <div id="services" className="light darkBg">
       <div className="section-title">
         <h2>Our Services</h2>
-        <p>
+        <span>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
           dapibus leonec.
-        </p>
+        </span>
       </div>
       <div className="tiles-container">
         {props.data
@@ -18,7 +18,7 @@ function ServicesTiles(props) {
                   <h3>
                     <b>{d.title}</b>
                   </h3>
-                  <p>{d.description}</p>
+                  <span>{d.description}</span>
                 </div>
               </div>
             ))

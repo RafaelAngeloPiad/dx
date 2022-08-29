@@ -12,7 +12,7 @@ function Header(props) {
               {props.data ? props.data.title : "Loading"}
               <span></span>
             </h1>
-            <p>{props.data ? props.data.paragraph : "Loading"}</p>
+            <span>{props.data ? props.data.paragraph : "Loading"}</span>
             <Button buttonColor="red">Get in Touch</Button>
           </div>
         </div>

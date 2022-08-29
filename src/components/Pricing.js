@@ -21,7 +21,7 @@ function Pricing() {
                 </div>
                 <h3>Starter</h3>
                 <h4>$8.99</h4>
-                <p>per month</p>
+                <span>per month</span>
                 <ul className="pricing__container-features">
                   <li>100 Transactions</li>
                   <li>2% Cash Back</li>
@@ -39,7 +39,7 @@ function Pricing() {
                 </div>
                 <h3>Gold</h3>
                 <h4>$29.99</h4>
-                <p>per month</p>
+                <span>per month</span>
                 <ul className="pricing__container-features">
                   <li>1000 Transactions</li>
                   <li>3.5% Cash Back</li>
@@ -57,7 +57,7 @@ function Pricing() {
                 </div>
                 <h3>Diamond</h3>
                 <h4>$99.99</h4>
-                <p>per month</p>
+                <span>per month</span>
                 <ul className="pricing__container-features">
                   <li>Unlimited Transactions</li>
                   <li>5% Cash Back</li>

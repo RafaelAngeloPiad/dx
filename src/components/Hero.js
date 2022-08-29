@@ -3,7 +3,7 @@ import "./css/Hero.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 
-function HeroSection({
+function Hero({
   lightBg,
   topLine,
   lightText,
@@ -36,7 +36,7 @@ function HeroSection({
                 <h1 className={lightText ? "heading" : "heading dark"}>
                   {headline}
                 </h1>
-                <p
+                <span
                   className={
                     lightTextDesc
                       ? "home__hero-subtitle"
@@ -44,7 +44,7 @@ function HeroSection({
                   }
                 >
                   {description}
-                </p>
+                </span>
                 <Link to="/sign-up">
                   <Button buttonSize="btn--wide" buttonColor="blue">
                     {buttonLabel}
@@ -64,4 +64,4 @@ function HeroSection({
   );
 }
 
-export default HeroSection;
+export default Hero;

@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./css/About.css";
 import aboutImg from "./img/about.jpg";
 
 function About(props) {
+  const aboutRef = useRef();
+
   return (
-    <div id="about">
+    <div id="about" ref={aboutRef}>
       <div className="about-container">
         <div className="about-row">
           <img src={aboutImg} className="img-responsive" alt="" />
