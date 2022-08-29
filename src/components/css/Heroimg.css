@@ -1,0 +1,51 @@
+#heroimg-header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-rows: auto;
+  text-align: center;
+}
+.heroimg-intro {
+  width: 90vmin;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  -webkit-clip-path: polygon(0 0, 70% 0%, 80% 100%, 0 100%);
+  clip-path: polygon(0 0, 70% 0%, 100% 100%, 0 100%);
+}
+.heroimg-introImg {
+  padding: 0;
+  background: url(../../../public/images/cover.jpg) center center no-repeat;
+  background-color: #e5e5e5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.heroimg-intro .heroimg-overlay {
+  background-color: #fff;
+}
+
+.heroimg-intro h1 {
+  line-height: 30px;
+  font-size: 5vmin;
+  font-weight: 200;
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+.heroimg-intro-text {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 25px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 200px;
+  letter-spacing: 0.5px;
+}
+
+.heroimg-button-wrapper {
+  margin-top: 20px;
+}

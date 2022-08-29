@@ -1,0 +1,45 @@
+/* Header Section */
+#header {
+  display: flex;
+}
+.intro {
+  display: flex;
+  padding: 0;
+  background: url(../../../public/images/cover.jpg) center center no-repeat;
+  background-color: #e5e5e5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.intro .overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+.intro h1 {
+  color: #fff;
+  font-size: 5vmin;
+  font-weight: 200;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.intro h1 span {
+  font-weight: 800;
+}
+.intro p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+header .intro-text {
+  padding-top: 250px;
+  padding-bottom: 250px;
+  text-align: center;
+}
+
+.intro-text {
+  padding-left: 100px;
+  padding-right: 100px;
+}

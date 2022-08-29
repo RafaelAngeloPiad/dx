@@ -1,0 +1,75 @@
+#about h2 {
+  font-size: 48px;
+}
+
+#about {
+  display: flex;
+  padding: 100px 0;
+  font-size: 18px;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  padding: 60px;
+}
+
+.about-row {
+  display: inline-grid;
+  justify-content: center;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+#about h3 {
+  font-size: 22px;
+  margin: 0 0 20px;
+}
+#about h2 {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+/* #about h2::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, #5ca9fb 0%, #1c2237 100%);
+  height: 4px;
+  width: 140px;
+  bottom: 0;
+  left: 0;
+} */
+#about .about-text li {
+  margin-bottom: 6px;
+  margin-left: 6px;
+  list-style: none;
+  padding: 0;
+}
+#about .about-text li:before {
+  content: "►";
+  color: #5ca9fb;
+  font-size: 11px;
+  font-weight: 300;
+  padding-right: 8px;
+}
+#about img {
+  width: 520px;
+  margin-top: 10px;
+  border-right: 0;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+#about p {
+  line-height: 24px;
+  margin: 30px 0;
+}
+
+.list-style {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: auto;
+  text-align: left;
+}
+
+.about-content {
+  display: inline-grid;
+}
