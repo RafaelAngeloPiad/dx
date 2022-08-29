@@ -5,6 +5,7 @@ import "./css/Navbar.css";
 import LogoDx from "./img/logoDark.webp";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
+import { DropdownItems } from "./pages/HomePage/Data";
 import Dropdown from "./Dropdown";
 
 function Navbar() {
@@ -58,13 +59,13 @@ function Navbar() {
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li
                 className="nav-item"
-                // onMouseEnter={onMouseEnter}
-                // onMouseLeave={onMouseLeave}
+                onMouseEnter={onMouseEnter}
+                onMouseLeave={onMouseLeave}
               >
                 <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                   Home <i className="fas fa-caret-down" />
                 </Link>
-                {/* {dropdown && <Dropdown />} */}
+                {dropdown && <Dropdown data={DropdownItems} />}
               </li>
 
               <li className="nav-item">
