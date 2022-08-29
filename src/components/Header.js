@@ -3,7 +3,7 @@ import "./css/Header.css";
 
 function Header(props) {
   return (
-    <header id="header" class="header-container">
+    <header id="header" className="header-container">
       <div className="header-intro">
         <div className="intro-text">
           <h1>{props.data ? props.data.title : "Loading"}</h1>
