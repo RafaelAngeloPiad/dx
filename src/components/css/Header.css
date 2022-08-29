@@ -1,8 +1,8 @@
 /* Header Section */
-#header {
+.header-container {
   display: flex;
 }
-.intro {
+.header-intro {
   display: flex;
   padding: 0;
   background: url(../../../public/images/cover.jpg) center center no-repeat;
@@ -12,20 +12,20 @@
   background-size: cover;
   -o-background-size: cover;
 }
-.intro .overlay {
+.header-intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
-.intro h1 {
+.header-intro h1 {
   color: #fff;
   font-size: 5vmin;
   font-weight: 200;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
-.intro h1 div {
+.header-intro h1 div {
   font-weight: 800;
 }
-.intro div {
+.header-intro div {
   color: #fff;
   font-size: 22px;
   font-weight: 300;
@@ -33,7 +33,7 @@
   margin: 0 auto;
   margin-bottom: 60px;
 }
-header .intro-text {
+.header-container .intro-text {
   padding-top: 250px;
   padding-bottom: 250px;
   text-align: center;
