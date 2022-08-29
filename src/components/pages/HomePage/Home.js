@@ -15,7 +15,7 @@ import Tiles from "../../Tiles";
 import Header from "../../Header";
 import About from "../../About";
 import Slider from "../../Slider";
-import ScrollToTop from "../../Scrolltotop";
+import ScrollToTop from "../../ScrollToTop";
 function Home() {
   return (
     <>

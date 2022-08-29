@@ -1,5 +1,5 @@
 import Hero from "../../Hero";
-import ScrollToTop from "../../Scrolltotop";
+import ScrollToTop from "../../ScrollToTop";
 import { homeObjOne, homeObjTwo } from "./Data";
 
 function Products() {
