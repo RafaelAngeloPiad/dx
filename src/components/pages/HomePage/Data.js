@@ -170,3 +170,26 @@ export const dataSlider = [
     subTitle: "Lorem",
   },
 ];
+
+export const DropdownItems = [
+  {
+    title: "About",
+    path: "#about",
+    cName: "dropdown-link",
+  },
+  {
+    title: "Consulting",
+    path: "#consulting",
+    cName: "dropdown-link",
+  },
+  {
+    title: "Design",
+    path: "#design",
+    cName: "dropdown-link",
+  },
+  {
+    title: "Development",
+    path: "#development",
+    cName: "dropdown-link",
+  },
+];

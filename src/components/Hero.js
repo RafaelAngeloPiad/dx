@@ -1,4 +1,3 @@
-import React from "react";
 import "./css/Hero.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
@@ -36,7 +35,7 @@ function Hero({
                 <h1 className={lightText ? "heading" : "heading dark"}>
                   {headline}
                 </h1>
-                <span
+                <div
                   className={
                     lightTextDesc
                       ? "home__hero-subtitle"
@@ -44,7 +43,7 @@ function Hero({
                   }
                 >
                   {description}
-                </span>
+                </div>
                 <Link to="/sign-up">
                   <Button buttonSize="btn--wide" buttonColor="blue">
                     {buttonLabel}

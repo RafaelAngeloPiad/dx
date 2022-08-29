@@ -1,4 +1,3 @@
-import React from "react";
 import "./css/Navtop.css";
 import { MdOutlineEmail, MdLocalPhone } from "react-icons/md";
 import { Link } from "react-router-dom";

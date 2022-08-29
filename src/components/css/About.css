@@ -1,8 +1,7 @@
-#about h2 {
+.about-container h2 {
   font-size: 48px;
 }
-
-#about {
+.about-container {
   display: flex;
   padding: 100px 0;
   font-size: 18px;
@@ -22,11 +21,11 @@
   padding-bottom: 20px;
 }
 
-#about h3 {
+.about-container h3 {
   font-size: 22px;
   margin: 0 0 20px;
 }
-#about h2 {
+.about-container h2 {
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
@@ -39,26 +38,26 @@
   bottom: 0;
   left: 0;
 } */
-#about .about-text li {
+.about-container .about-text li {
   margin-bottom: 6px;
   margin-left: 6px;
   list-style: none;
   padding: 0;
 }
-#about .about-text li:before {
+.about-container .about-text li:before {
   content: "►";
   color: #5ca9fb;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
 }
-#about img {
+.about-container img {
   width: 520px;
   margin-top: 10px;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
-#about span {
+.about-container div {
   line-height: 24px;
   margin: 30px 0;
 }

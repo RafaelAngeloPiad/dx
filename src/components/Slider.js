@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./css/Slider.css";
 import leftArrow from "./icons/left-arrow.svg";
 import rightArrow from "./icons/right-arrow.svg";
@@ -38,7 +38,7 @@ export default function Slider(props) {
             key={obj.id}
             className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
           >
-            <p>{obj.title}</p>
+            <div>{obj.title}</div>
             <img
               src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`}
               alt="Slider"

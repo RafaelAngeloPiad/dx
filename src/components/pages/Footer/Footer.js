@@ -1,4 +1,3 @@
-import React from "react";
 import "../../css/Footer.css";
 import LogoDx from "../../img/logo.webp";
 import { Button } from "../../Button";

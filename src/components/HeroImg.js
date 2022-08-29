@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "./Button";
 import "./css/Heroimg.css";
 
@@ -10,7 +9,7 @@ function HeroImg(props) {
           <div className="heroimg-overlay">
             <div className="heroimg-intro-text">
               <h1>{props.data ? props.data.title : "Loading"}</h1>
-              <span>{props.data ? props.data.paragraph : "Loading"}</span>
+              <div>{props.data ? props.data.paragraph : "Loading"}</div>
               <div className="heroimg-button-wrapper">
                 <Button buttonColor="red">Get in Touch</Button>
               </div>

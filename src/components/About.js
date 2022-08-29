@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import "./css/About.css";
 import aboutImg from "./img/about.jpg";
 
@@ -14,7 +14,7 @@ function About(props) {
         <div className="about-row">
           <div className="about-text">
             <h2>About Us</h2>
-            <p>{props.data ? props.data.paragraph : "loading..."}</p>
+            <div>{props.data ? props.data.paragraph : "loading..."}</div>
             <h3>Why Choose Us?</h3>
             <div className="list-style">
               <div className="about-content">

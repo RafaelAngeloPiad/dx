@@ -7,18 +7,20 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/pages/Footer/Footer";
 import Navtop from "./components/Navtop";
+import { DropdownItems } from "./components/pages/HomePage/Data";
 
 function App() {
   return (
     <BrowserRouter>
       <Navtop />
-      <Navbar />
-      <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/sign-up" element={<SignUp />} />
-      </Routes>
-      <Footer />
+      <Navbar data={DropdownItems} />
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/sign-up" element={<SignUp />} />
+        </Routes>
+        <Footer />
+ 
     </BrowserRouter>
   );
 }

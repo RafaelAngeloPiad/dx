@@ -22,10 +22,10 @@
   margin-top: 0;
   margin-bottom: 10px;
 }
-.intro h1 span {
+.intro h1 div {
   font-weight: 800;
 }
-.intro span {
+.intro div {
   color: #fff;
   font-size: 22px;
   font-weight: 300;
