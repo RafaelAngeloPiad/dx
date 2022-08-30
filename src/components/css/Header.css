@@ -17,14 +17,13 @@
 }
 .header-intro h1 {
   color: #fff;
-  font-size: 5vmin;
-  font-weight: 200;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  font-size: 48px;
   margin-top: 0;
   margin-bottom: 40px;
 }
-.header-intro h1 div {
-  font-weight: 800;
-}
+
 .header-intro div {
   color: #fff;
   font-size: 22px;

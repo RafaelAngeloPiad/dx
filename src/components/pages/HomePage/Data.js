@@ -1,3 +1,13 @@
+import {
+  MdAssignment,
+  MdAccessibility,
+  MdAccountBalanceWallet,
+  MdAccountBalance,
+  MdAccountCircle,
+  MdAllInbox,
+  MdApi,
+} from "react-icons/md";
+
 export const header = {
   headline: "Connect.Communicate.Collaborate.",
   title: "Dialogx Ltd - Carrier as a Service",
@@ -26,9 +36,9 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: "100% SECURE",
   headline: "Stay protected 24/7 anywhere anytime",
   description:
@@ -40,9 +50,9 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
   topLine: "EASY SETUP",
   headline: "Super fast and simple onboarding process",
   description:
@@ -196,25 +206,49 @@ export const DropdownItems = [
 
 export const features = [
   {
-    img: "images/svg-1.svg",
+    icon: <MdAssignment />,
     title: "sam",
     description:
       "parkar We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime",
   },
   {
-    img: "images/svg-2.svg",
+    icon: <MdAssignment />,
     title: "sam",
     description:
       "parkar We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime",
   },
   {
-    img: "images/svg-3.svg",
+    icon: <MdAssignment />,
     title: "sam",
     description:
       "parkar We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime",
   },
   {
-    img: "images/svg-4.svg",
+    icon: <MdAssignment />,
+    title: "sam",
+    description:
+      "parkar We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime",
+  },
+  {
+    icon: <MdAssignment />,
+    title: "sam",
+    description:
+      "parkar We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime",
+  },
+  {
+    icon: <MdAssignment />,
+    title: "sam",
+    description:
+      "parkar We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime",
+  },
+  {
+    icon: <MdAssignment />,
+    title: "sam",
+    description:
+      "parkar We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime",
+  },
+  {
+    icon: <MdAssignment />,
     title: "sam",
     description:
       "parkar We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime",

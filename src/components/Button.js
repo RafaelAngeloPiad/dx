@@ -9,7 +9,13 @@ const SIZES = [
   "custom_btn--wide",
 ];
 
-const COLOR = ["custom_primary", "custom_blue", "custom_red", "custom_green"];
+const COLOR = [
+  "custom_primary",
+  "custom_blue",
+  "custom_red",
+  "custom_green",
+  "custom_gray",
+];
 
 export const Button = ({
   children,

@@ -14,7 +14,7 @@
 }
 .heroimg-introImg {
   padding: 0;
-  background: url(../../../public/images/cover.jpg) center center no-repeat;
+  background: url(../../../public/images/cover-2.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -34,8 +34,8 @@
 }
 
 .heroimg-intro-text {
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding-top: 180px;
+  padding-bottom: 180px;
   text-align: center;
   font-size: 22px;
   font-weight: 300;
@@ -48,4 +48,26 @@
 
 .heroimg-button-wrapper {
   margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .heroimg-intro h1 {
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 70px;
+  }
+
+  .heroimg-intro-text {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    line-height: 25px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    letter-spacing: 0.5px;
+  }
+
+  .heroimg-intro {
+    clip-path: inset(13% 4% 12% 4%);
+  }
 }

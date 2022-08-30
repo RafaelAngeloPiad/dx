@@ -18,7 +18,7 @@ function Hero({
     <>
       <div
         className={
-          lightBg ? "home__hero-section" : "home__hero-section dxBg-gradient"
+          lightBg ? "home__hero-section" : "home__hero-section dxdarkBg"
         }
       >
         <div className="container">

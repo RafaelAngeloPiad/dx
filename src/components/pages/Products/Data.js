@@ -1,3 +1,5 @@
+import { MdAssignment } from "react-icons/md";
+
 export const homeObjOne = {
   lightBg: true,
   lightText: false,

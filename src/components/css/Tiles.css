@@ -3,20 +3,19 @@
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   grid-template-rows: auto;
   text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 50px;
 }
 
 .custom_tiles {
   display: inline-grid;
-  padding: 20px;
   justify-content: center;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 #tiles_services {
-  padding: 100px 0;
-  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+  padding: 100px;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 }
 #tiles_services .tiles_service-desc {
   margin: 10px 10px 20px;
@@ -33,28 +32,14 @@
 .tiles_section-title {
   font-size: 18px;
   padding: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   justify-content: center;
   text-align: center;
 }
 
-#tiles_services i.fa {
-  font-size: 48px;
-  width: 120px;
-  height: 120px;
-  padding: 40px 0;
-  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
-  border-radius: 50%;
-
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-}
 #tiles_services h3 {
   font-weight: 500;
   padding: 5px 0;
-}
-
-#tiles_services .service-desc {
-  margin-bottom: 40px;
 }
 
 .light {
