@@ -26,7 +26,7 @@
   padding: 0;
 }
 #about .about-text li:before {
-  content: "\f00c";
+  content: "►";
   font-family: "FontAwesome";
   color: #5ca9fb;
   font-size: 11px;
