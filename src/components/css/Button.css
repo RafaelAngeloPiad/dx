@@ -8,8 +8,8 @@
 }
 
 .custom_btn--primary {
-  background-color: var(--primary);
-  color: #242424;
+  background-color: #434345;
+  color: #fff;
   border: 1px solid var(--primary);
 }
 
@@ -87,6 +87,12 @@
 
 .custom_primary {
   background-color: #242424;
+  color: #fff;
+  border: none;
+}
+
+.custom_gray {
+  background-color: #434345;
   color: #fff;
   border: none;
 }

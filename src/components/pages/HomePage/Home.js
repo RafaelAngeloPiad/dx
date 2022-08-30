@@ -9,6 +9,7 @@ import {
   header,
   about,
   dataSlider,
+  features,
 } from "./Data";
 import Pricing from "../../Pricing";
 import Tiles from "../../Tiles";
@@ -18,6 +19,8 @@ import Slider from "../../Slider";
 import ScrollToTop from "../../ScrollToTop";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import Features from "../../Features";
+
 function Home() {
   // const location = useLocation();
   // useEffect(() => {
@@ -38,6 +41,7 @@ function Home() {
       <Header data={header} />
       <HeroImg data={header} />
       <Hero {...homeObjThree} />
+      <Features data={features} />
       <Hero {...homeObjTwo} />
       <Slider data={dataSlider} />
       <Pricing />

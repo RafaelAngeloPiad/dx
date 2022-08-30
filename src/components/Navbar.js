@@ -92,17 +92,11 @@ function Navbar() {
               <li className="custom_navbar-btn">
                 {button ? (
                   <Link to="/sign-up">
-                    <Button
-                      buttonStyle="custom_btn--outline"
-                      buttonColor="custom_blue"
-                    >
-                      SIGN UP
-                    </Button>
+                    <Button buttonColor="custom_blue">SIGN UP</Button>
                   </Link>
                 ) : (
                   <Link to="/sign-up">
                     <Button
-                      buttonStyle="custom_btn--outline"
                       buttonSize="custom_btn--mobile"
                       buttonColor="custom_blue"
                       onClick={closeMobileMenu}
