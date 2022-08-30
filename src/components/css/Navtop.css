@@ -46,6 +46,12 @@
   transform: translate(0%, -8%);
 }
 
+@media screen and (max-width: 1150px) {
+  .navtop-phrase {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .navtop-container {
     display: none;
