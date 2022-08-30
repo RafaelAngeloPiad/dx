@@ -11,7 +11,9 @@ function Dropdown(props) {
     <>
       <ul
         onClick={handleClick}
-        className={click ? "dropdown-menu clicked" : "dropdown-menu"}
+        className={
+          click ? "custom_dropdown-menu clicked" : "custom_dropdown-menu"
+        }
       >
         {props.data.map((item, index) => {
           return (
