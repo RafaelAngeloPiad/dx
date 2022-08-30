@@ -48,48 +48,63 @@ function Navbar() {
   return (
     <>
       <IconContext.Provider value={{ color: "#000000" }}>
-        <nav className="navbar">
-          <div className="navbar-container">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              <img src={LogoDx} className="navbar-icon" alt="DialogX" />
+        <nav className="custom_navbar">
+          <div className="custom_navbar-container">
+            <Link
+              to="/"
+              className="custom_navbar-logo"
+              onClick={closeMobileMenu}
+            >
+              <img src={LogoDx} className="custom_navbar-icon" alt="DialogX" />
             </Link>
-            <div className="menu-icon" onClick={handleClick}>
+            <div className="custom_menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </div>
-            <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <ul
+              className={
+                click ? "custom_navbar-menu active" : "custom_navbar-menu"
+              }
+            >
               <li
-                className="nav-item"
+                className="custom_navbar-item"
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}
               >
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                <Link
+                  to="/"
+                  className="custom_navbar-links"
+                  onClick={closeMobileMenu}
+                >
                   Home <i className="fas fa-caret-down" />
                 </Link>
                 {dropdown && <Dropdown data={DropdownItems} />}
               </li>
 
-              <li className="nav-item">
+              <li className="custom_navbar-item">
                 <Link
                   to="/products"
-                  className="nav-links"
+                  className="custom_navbar-links"
                   onClick={closeMobileMenu}
                 >
                   Products
                 </Link>
               </li>
-              <li className="nav-btn">
+              <li className="custom_navbar-btn">
                 {button ? (
-                  <Link to="/sign-up" className="btn-link">
-                    <Button buttonStyle="btn--outline" buttonColor="blue">
+                  <Link to="/sign-up">
+                    <Button
+                      buttonStyle="custom_btn--outline"
+                      buttonColor="custom_blue"
+                    >
                       SIGN UP
                     </Button>
                   </Link>
                 ) : (
-                  <Link to="/sign-up" className="btn-link">
+                  <Link to="/sign-up">
                     <Button
-                      buttonStyle="btn--outline"
-                      buttonSize="btn--mobile"
-                      buttonColor="blue"
+                      buttonStyle="custom_btn--outline"
+                      buttonSize="custom_btn--mobile"
+                      buttonColor="custom_blue"
                       onClick={closeMobileMenu}
                     >
                       SIGN UP

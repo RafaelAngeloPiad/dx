@@ -26,11 +26,11 @@
 }
 
 .navtop-phrase {
-  margin-top: 5px;
+  margin-top: 2px;
 }
 
 .navtop-contacts {
-  margin-top: 5px;
+  margin-top: 2px;
   padding-right: 100px;
   text-align: center;
   justify-content: center;
@@ -43,7 +43,7 @@
 }
 
 .navtop-logo {
-  transform: translate(0%, 15%);
+  transform: translate(0%, -8%);
 }
 
 @media screen and (max-width: 960px) {

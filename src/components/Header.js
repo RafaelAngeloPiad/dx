@@ -8,7 +8,7 @@ function Header(props) {
         <div className="intro-text">
           <h1>{props.data ? props.data.title : "Loading"}</h1>
           <div>{props.data ? props.data.paragraph : "Loading"}</div>
-          <Button buttonColor="red">Get in Touch</Button>
+          <Button buttonColor="custom_red">Get in Touch</Button>
         </div>
       </div>
     </header>

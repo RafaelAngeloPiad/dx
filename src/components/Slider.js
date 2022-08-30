@@ -40,7 +40,7 @@ export default function Slider(props) {
           >
             <div>{obj.title}</div>
             <img
-              src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`}
+              src={process.env.PUBLIC_URL + `/images/img${index + 1}.jpg`}
               alt="Slider"
             />
           </div>

@@ -1,6 +1,7 @@
 import Hero from "../../Hero";
+import ProductCards from "../../ProductCards";
 import ScrollToTop from "../../ScrollToTop";
-import { homeObjOne, homeObjTwo } from "./Data";
+import { homeObjOne, homeObjTwo, product_card } from "./Data";
 
 function Products() {
   return (
@@ -8,6 +9,7 @@ function Products() {
       <ScrollToTop />
       <Hero {...homeObjOne} />
       <Hero {...homeObjTwo} />
+      <ProductCards data={product_card} />
     </>
   );
 }

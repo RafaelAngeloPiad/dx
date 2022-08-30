@@ -26,7 +26,10 @@ function Pricing() {
                   <li>2% Cash Back</li>
                   <li>$10,000 Limit</li>
                 </ul>
-                <Button buttonSize="btn--wide" buttonColor="primary">
+                <Button
+                  buttonSize="custom_btn--wide"
+                  buttonColor="custom_primary"
+                >
                   Choose Plan
                 </Button>
               </div>
@@ -44,7 +47,7 @@ function Pricing() {
                   <li>3.5% Cash Back</li>
                   <li>$100,000 Limit</li>
                 </ul>
-                <Button buttonSize="btn--wide" buttonColor="blue">
+                <Button buttonSize="custom_btn--wide" buttonColor="custom_blue">
                   Choose Plan
                 </Button>
               </div>
@@ -62,7 +65,10 @@ function Pricing() {
                   <li>5% Cash Back</li>
                   <li>Unlimited Spending</li>
                 </ul>
-                <Button buttonSize="btn--wide" buttonColor="primary">
+                <Button
+                  buttonSize="custom_btn--wide"
+                  buttonColor="custom_primary"
+                >
                   Choose Plan
                 </Button>
               </div>

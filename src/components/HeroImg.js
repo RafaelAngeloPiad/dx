@@ -11,7 +11,7 @@ function HeroImg(props) {
               <h1>{props.data ? props.data.title : "Loading"}</h1>
               <div>{props.data ? props.data.paragraph : "Loading"}</div>
               <div className="heroimg-button-wrapper">
-                <Button buttonColor="red">Get in Touch</Button>
+                <Button buttonColor="custom_red">Get in Touch</Button>
               </div>
             </div>
           </div>

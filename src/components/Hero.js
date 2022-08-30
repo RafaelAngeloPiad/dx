@@ -45,7 +45,10 @@ function Hero({
                   {description}
                 </div>
                 <Link to="/sign-up">
-                  <Button buttonSize="btn--wide" buttonColor="blue">
+                  <Button
+                    buttonSize="custom_btn--wide"
+                    buttonColor="custom_blue"
+                  >
                     {buttonLabel}
                   </Button>
                 </Link>

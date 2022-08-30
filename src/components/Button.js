@@ -1,10 +1,15 @@
 import "./css/Button.css";
 
-const STYLES = ["btn--primary", "btn--outline"];
+const STYLES = ["custom_btn--primary", "custom_btn--outline"];
 
-const SIZES = ["btn--medium", "btn--large", "btn--mobile", "btn--wide"];
+const SIZES = [
+  "custom_btn--medium",
+  "custom_btn--large",
+  "custom_btn--mobile",
+  "custom_btn--wide",
+];
 
-const COLOR = ["primary", "blue", "red", "green"];
+const COLOR = ["custom_primary", "custom_blue", "custom_red", "custom_green"];
 
 export const Button = ({
   children,
@@ -24,7 +29,7 @@ export const Button = ({
 
   return (
     <button
-      className={`btn ${checkButtonStyle} ${checkButtonSize} ${checkButtonColor}`}
+      className={`custom_btn ${checkButtonStyle} ${checkButtonSize} ${checkButtonColor}`}
       onClick={onClick}
       type={type}
     >
