@@ -1,7 +1,7 @@
 import Hero from "../../Hero";
 import ProductCards from "../../ProductCards";
 import ScrollToTop from "../../ScrollToTop";
-import { homeObjOne, homeObjTwo, product_card } from "./Data";
+import { homeObjOne, homeObjTwo, product_card } from "../../data/Data";
 
 function Products() {
   return (

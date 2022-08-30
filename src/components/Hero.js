@@ -23,16 +23,18 @@ function Hero({
       >
         <div className="container">
           <div
-            className="row home__hero-row"
+            className="hero_row home__hero-row"
             style={{
               display: "flex",
-              flexDirection: imgStart === "start" ? "row-reverse" : "row",
+              flexDirection: imgStart === "start" ? "row-reverse" : "hero_row",
             }}
           >
-            <div className="col">
+            <div className="hero_col">
               <div className="home__hero-text-wrapper">
-                <div className="top-line">{topLine}</div>
-                <h1 className={lightText ? "heading" : "heading dark"}>
+                <div className="hero_top-line">{topLine}</div>
+                <h1
+                  className={lightText ? "hero_heading" : "hero_heading dark"}
+                >
                   {headline}
                 </h1>
                 <div
@@ -54,7 +56,7 @@ function Hero({
                 </Link>
               </div>
             </div>
-            <div className="col">
+            <div className="hero_col">
               <div className="home__hero-img-wrapper">
                 <img src={img} alt={alt} className="home__hero-img" />
               </div>

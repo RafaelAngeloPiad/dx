@@ -1,10 +1,10 @@
 import Hero from "../../Hero";
-import { homeObjOne, homeObjThree } from "./Data";
+import { SignUpHero, homeObjThree } from "../../data/Data";
 
 function SignUp() {
   return (
     <>
-      <Hero {...homeObjOne} />
+      <Hero {...SignUpHero} />
       <Hero {...homeObjThree} />
     </>
   );

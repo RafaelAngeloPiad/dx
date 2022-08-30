@@ -25,20 +25,20 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Exclusive Access",
-  headline: "Unlimited Transactions with zero fees",
+  topLine: "SIGN UP TODAY",
+  headline: "Join today to receive an exclusive offer",
   description:
     "Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees",
-  buttonLabel: "Get Started",
+  buttonLabel: "Sign Up",
   imgStart: "",
-  img: "images/svg-1.svg",
+  img: "images/svg-6.svg",
   alt: "Credit Card",
 };
 
 export const homeObjTwo = {
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
   topLine: "100% SECURE",
   headline: "Stay protected 24/7 anywhere anytime",
   description:
@@ -50,9 +50,9 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: "EASY SETUP",
   headline: "Super fast and simple onboarding process",
   description:
@@ -62,6 +62,123 @@ export const homeObjThree = {
   img: "images/svg-7.svg",
   alt: "Vault",
 };
+
+export const homeObjFour = {
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "DATA ANALYTICS",
+  headline: "Every transaction is stored on our secure cloud database",
+  description:
+    "Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.",
+  buttonLabel: "Sign Up Now",
+  imgStart: "start",
+  img: "images/svg-8.svg",
+  alt: "Vault",
+};
+
+export const productHero = {
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "VIEW OUR PRODUCTS",
+  headline: "Shop through our catalog of products",
+  description:
+    "We provide worldwide shipping to all countries. If there are any issues, just issue a refund and we will process your request",
+  buttonLabel: "Shop Now",
+  imgStart: "",
+  img: "images/svg-4.svg",
+  alt: "Credit Card",
+};
+
+export const SignUpHero = {
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "SIGN UP TODAY",
+  headline: "Join today to receive an exclusive offer",
+  description:
+    "Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees",
+  buttonLabel: "Sign Up",
+  imgStart: "",
+  img: "images/svg-6.svg",
+  alt: "Credit Card",
+};
+
+export const product_card = [
+  {
+    id: 1,
+    product_name: "Rayes Alpha",
+    description: "Hands-free, Hads-on Mushc Experience",
+    price: 350,
+    currency: "$",
+    thumb: "images/1.png",
+  },
+  {
+    id: 2,
+    product_name: "Rayes Z30",
+    description: "Hands-free, Hads-on Mushc Experience",
+    price: 250,
+    currency: "$",
+    thumb: "images/2.png",
+  },
+  {
+    id: 3,
+    product_name: "Rayes X30",
+    description: "Hands-free, Hads-on Mushc Experience",
+    price: 350,
+    currency: "$",
+    thumb: "images/3.png",
+  },
+  {
+    id: 4,
+    product_name: "Rayes Alpha",
+    description: "Hands-free, Hads-on Mushc Experience",
+    price: 350,
+    currency: "$",
+    thumb: "images/3.png",
+  },
+  {
+    id: 5,
+    product_name: "Rayes Z30",
+    description: "Hands-free, Hads-on Mushc Experience",
+    price: 250,
+    currency: "$",
+    thumb: "images/1.png",
+  },
+  {
+    id: 6,
+    product_name: "Rayes X30",
+    description: "Hands-free, Hads-on Mushc Experience",
+    price: 350,
+    currency: "$",
+    thumb: "images/2.png",
+  },
+  {
+    id: 7,
+    product_name: "Rayes Alpha",
+    description: "Hands-free, Hads-on Mushc Experience",
+    price: 350,
+    currency: "$",
+    thumb: "images/3.png",
+  },
+  {
+    id: 8,
+    product_name: "Rayes Z30",
+    description: "Hands-free, Hads-on Mushc Experience",
+    price: 250,
+    currency: "$",
+    thumb: "images/1.png",
+  },
+  {
+    id: 9,
+    product_name: "Rayes X30",
+    description: "Hands-free, Hads-on Mushc Experience",
+    price: 350,
+    currency: "$",
+    thumb: "images/2.png",
+  },
+];
 
 export const Headliner = {
   lightBg: true,
@@ -80,20 +197,6 @@ export const Headliner = {
   buttonLabel: "Get in Touch",
   imgStart: "",
   img: "images/svg-2.svg",
-  alt: "Vault",
-};
-
-export const homeObjFour = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: "DATA ANALYTICS",
-  headline: "Every transaction is stored on our secure cloud database",
-  description:
-    "Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.",
-  buttonLabel: "Sign Up Now",
-  imgStart: "start",
-  img: "images/svg-8.svg",
   alt: "Vault",
 };
 

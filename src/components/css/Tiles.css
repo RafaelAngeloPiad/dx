@@ -1,6 +1,6 @@
 .custom_tiles-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(276px, 1fr));
   grid-template-rows: auto;
   text-align: center;
   padding: 50px;
@@ -11,6 +11,20 @@
   justify-content: center;
   text-align: center;
   padding-bottom: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom_tiles:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 #tiles_services {
@@ -21,6 +35,8 @@
   margin: 10px 10px 20px;
 }
 #tiles_services h2 {
+  font-weight: 700;
+  letter-spacing: 1.4px;
   font-size: 48px;
 }
 
@@ -73,8 +89,17 @@
 }
 
 @media screen and (max-width: 960px) {
-  .tiles-container {
-    padding-left: 0px;
-    padding-right: 0px;
+  .custom_tiles-container {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #tiles_services div {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #tiles_services {
+    padding: 5px;
   }
 }

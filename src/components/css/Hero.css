@@ -7,13 +7,13 @@
   align-items: center;
 }
 
-.row {
+.hero_row {
   display: flex;
 
   flex-wrap: wrap;
 }
 
-.col {
+.hero_col {
   margin-bottom: 15px;
   padding-right: 15px;
   padding-left: 15px;
@@ -28,7 +28,7 @@
   padding-bottom: 60px;
 }
 
-.top-line {
+.hero_top-line {
   color: #f00946;
   font-size: 16px;
   line-height: 16px;
@@ -38,7 +38,7 @@
   margin-bottom: 16px;
 }
 
-.heading {
+.hero_heading {
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
@@ -104,7 +104,7 @@ img {
     padding: 100px 0px;
   }
 
-  .col {
+  .hero_col {
     max-width: 100%;
     flex-basis: 100%;
   }

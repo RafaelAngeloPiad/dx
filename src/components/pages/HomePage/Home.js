@@ -10,7 +10,7 @@ import {
   about,
   dataSlider,
   features,
-} from "./Data";
+} from "../../data/Data";
 import Pricing from "../../Pricing";
 import Tiles from "../../Tiles";
 import Header from "../../Header";

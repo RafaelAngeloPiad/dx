@@ -5,7 +5,7 @@ import "./css/Navbar.css";
 import LogoDx from "./img/logoDark.webp";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-import { DropdownItems } from "./pages/HomePage/Data";
+import { DropdownItems } from "./data/Data";
 import Dropdown from "./Dropdown";
 
 function Navbar() {

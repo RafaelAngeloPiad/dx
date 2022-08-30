@@ -4,10 +4,8 @@ function ServicesTiles(props) {
     <div id="tiles_services" className="light darkBg">
       <div className="tiles_section-title">
         <h2>Our Services</h2>
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-          dapibus leonec.
-        </div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus
+        leonec.
       </div>
       <div className="custom_tiles-container">
         {props.data
