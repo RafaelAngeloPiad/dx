@@ -1,4 +1,4 @@
-.tiles-container {
+.custom_tiles-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   grid-template-rows: auto;
@@ -7,30 +7,30 @@
   padding-right: 50px;
 }
 
-.tiles {
+.custom_tiles {
   display: inline-grid;
   padding: 20px;
   justify-content: center;
   text-align: center;
 }
 
-#services {
+#tiles_services {
   padding: 100px 0;
   /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
 }
-#services .service-desc {
+#tiles_services .tiles_service-desc {
   margin: 10px 10px 20px;
 }
-#services h2 {
+#tiles_services h2 {
   font-size: 48px;
 }
 
-#services div {
+#tiles_services div {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.section-title {
+.tiles_section-title {
   font-size: 18px;
   padding: 20px;
   margin-bottom: 100px;
@@ -38,7 +38,7 @@
   text-align: center;
 }
 
-#services i.fa {
+#tiles_services i.fa {
   font-size: 48px;
   width: 120px;
   height: 120px;
@@ -48,12 +48,12 @@
 
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-#services h3 {
+#tiles_services h3 {
   font-weight: 500;
   padding: 5px 0;
 }
 
-#services .service-desc {
+#tiles_services .service-desc {
   margin-bottom: 40px;
 }
 

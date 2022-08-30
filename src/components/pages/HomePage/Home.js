@@ -16,7 +16,21 @@ import Header from "../../Header";
 import About from "../../About";
 import Slider from "../../Slider";
 import ScrollToTop from "../../ScrollToTop";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 function Home() {
+  // const location = useLocation();
+  // useEffect(() => {
+  //   console.log("location", location.key); // { key: "3uu089" }
+  //   // Fire whatever function you need.
+  //   // if (document.getElementById("#about")) {
+  //   //   const element = document.getElementById("#about");
+  //   //   element.scrollIntoView();
+  //   // } else {
+  //   //   console.log("pikpik");
+  //   // }
+  // }, [location.key]);
+
   return (
     <>
       <ScrollToTop />
