@@ -16,7 +16,7 @@ function Hero({
 }) {
   return (
     <>
-      <div className="splash-section ">
+      <div className="splash-section">
         <div className="container">
           <div
             className="hero_row home__hero-row"
