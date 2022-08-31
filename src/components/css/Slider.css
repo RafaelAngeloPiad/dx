@@ -5,6 +5,8 @@
   position: relative;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  display: grid;
+  position: relative;
 }
 @media screen and (max-width: 700px) {
   .container-slider {
@@ -73,4 +75,35 @@
 }
 .dot.active {
   background: rgb(32, 32, 32);
+}
+.slider-overlay-container {
+  display: grid;
+  position: relative;
+  height: 550px;
+  text-align: center;
+}
+.slider-cover {
+  position: absolute;
+  grid-column: 1;
+  z-index: 1;
+}
+
+.slider-img {
+  position: absolute;
+  object-fit: cover;
+  grid-column: 1;
+  z-index: 0;
+}
+
+.slider-desc {
+  bottom: 0;
+  grid-column: 1;
+  z-index: 2;
+  margin-top: 310px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.slider-control-panel {
+  z-index: 1;
 }
