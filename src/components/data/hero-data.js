@@ -87,7 +87,15 @@ export const Headliner = {
   lightText: false,
   lightTextDesc: false,
   topLine: "Connect.Communicate.Collaborate.",
-  headline: "Dialogx Ltd - Carrier as a Service",
+  headline: (
+    <div>
+      Connect.
+      <br />
+      Communicate.
+      <br />
+      Collaborate.
+    </div>
+  ),
   description: (
     <div>
       A fully featured <b>Carrier as a Service platform</b>, enabling CSPs
@@ -98,6 +106,66 @@ export const Headliner = {
   ),
   buttonLabel: "Get in Touch",
   imgStart: "",
-  img: "images/svg-2.svg",
+  img: "images/svg-9.svg",
+  alt: "Vault",
+};
+
+export const advantage1 = {
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Advantage",
+  headline: <div>Secure</div>,
+  description: (
+    <div>
+      A fully featured <b>Carrier as a Service platform</b>, enabling CSPs
+      (Communication Service Providers) to deploy <b>unified communications</b>{" "}
+      globally with <b>zero capital investment</b> through a cloud-based or
+      on-prem platform.
+    </div>
+  ),
+  buttonLabel: "Get in Touch",
+  imgStart: "",
+  img: "images/svg-9.svg",
+  alt: "Vault",
+};
+
+export const advantage2 = {
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Advantage",
+  headline: <div>Inclusive</div>,
+  description: (
+    <div>
+      A fully featured <b>Carrier as a Service platform</b>, enabling CSPs
+      (Communication Service Providers) to deploy <b>unified communications</b>{" "}
+      globally with <b>zero capital investment</b> through a cloud-based or
+      on-prem platform.
+    </div>
+  ),
+  buttonLabel: "Get in Touch",
+  imgStart: "start",
+  img: "images/svg-9.svg",
+  alt: "Vault",
+};
+
+export const advantage3 = {
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Advantage",
+  headline: <div>Flexible</div>,
+  description: (
+    <div>
+      A fully featured <b>Carrier as a Service platform</b>, enabling CSPs
+      (Communication Service Providers) to deploy <b>unified communications</b>{" "}
+      globally with <b>zero capital investment</b> through a cloud-based or
+      on-prem platform.
+    </div>
+  ),
+  buttonLabel: "Get in Touch",
+  imgStart: "",
+  img: "images/svg-9.svg",
   alt: "Vault",
 };

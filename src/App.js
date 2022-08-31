@@ -6,12 +6,10 @@ import SignUp from "./components/pages/SignUp/SignUp";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Navtop from "./components/Navtop";
 
 function App() {
   return (
     <BrowserRouter>
-      <Navtop />
       <Navbar />
       <Routes>
         <Route path="/" exact element={<Home />} />

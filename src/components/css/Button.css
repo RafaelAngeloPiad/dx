@@ -53,8 +53,8 @@
 .custom_btn--medium:hover,
 .custom_btn--mobile:hover {
   transition: all 0.3s ease-out;
-  background: #fff;
-  color: #242424;
+  background: #25ce4a;
+  color: #fff;
 }
 
 .custom_btn--wide:hover {
