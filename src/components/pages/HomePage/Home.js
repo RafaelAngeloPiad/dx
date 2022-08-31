@@ -32,7 +32,6 @@ function Home() {
   return (
     <>
       <Splash />
-      <Header2 />
       <Advantages {...advantage1} />
       <Advantages {...advantage2} />
       <Advantages {...advantage3} />
@@ -42,6 +41,7 @@ function Home() {
       <Hero {...homeObjTwo} />
       <Tiles data={tiles} />
       <Hero {...homeObjFour} />
+      <Header2 />
     </>
   );
 }
