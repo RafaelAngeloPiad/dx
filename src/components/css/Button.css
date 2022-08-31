@@ -112,7 +112,7 @@
 
 .custom_primary:hover {
   background-color: #fff;
-  color: #242424;
+  color: #2e3033;
   border: none;
 }
 
@@ -123,7 +123,7 @@
 }
 
 .custom_green:hover {
-  background-color: #242424;
+  background-color: #2e3033;
 }
 
 @media screen and (max-width: 300px) {
