@@ -1,13 +1,8 @@
 import Hero from "../../Hero";
 import Header2 from "../../Header2";
-import HeroImg from "../../HeroImg";
-import Pricing from "../../Pricing";
 import Tiles from "../../Tiles";
 import Header from "../../Header";
-import About from "../../AboutUs";
-import Slider from "../../Slider";
 import Features from "../../Features";
-import ScrollToTop from "../../ScrollToTop";
 import Advantages from "../../Advantages";
 import {
   Headliner,
@@ -18,11 +13,7 @@ import {
 import { advantage1, advantage2, advantage3 } from "../../data/advantage-data";
 import { header } from "../../data/header-data";
 import { features } from "../../data/features-data";
-import { dataSlider } from "../../data/slider-data";
 import { tiles } from "../../data/tiles-data";
-
-import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
 
 function Home() {
   // const location = useLocation();
@@ -39,7 +30,6 @@ function Home() {
 
   return (
     <>
-      <ScrollToTop />
       <Hero {...Headliner} />
       <Header2 />
       <Advantages {...advantage1} />
