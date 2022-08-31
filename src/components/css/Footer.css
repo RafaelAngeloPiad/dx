@@ -76,6 +76,7 @@
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
+  cursor: pointer;
 }
 
 .custom_footer-link-items a:hover {
@@ -157,7 +158,6 @@
 @media screen and (max-width: 400px) {
   .custom_footer-links {
     display: grid;
-
     text-align: center;
     justify-content: center;
     align-items: center;
