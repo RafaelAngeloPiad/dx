@@ -6,9 +6,10 @@ function Header(props) {
     <header id="header" className="header-container">
       <div className="header-intro">
         <div className="intro-text">
-          <h1>{props.data ? props.data.title : "Loading"}</h1>
-          <div>{props.data ? props.data.paragraph : "Loading"}</div>
-          <Button buttonColor="custom_red">Get in Touch</Button>
+          <h1>{props.data.paragraph}</h1>
+        </div>
+        <div className="header-img-wrapper">
+          <div className="img-sizer"></div>
         </div>
       </div>
     </header>

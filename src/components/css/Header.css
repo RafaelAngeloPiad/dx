@@ -1,51 +1,70 @@
 /* Header Section */
 .header-container {
-  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  border: 0.5px solid;
+  border-radius: 30px;
+  padding: 5px;
 }
 .header-intro {
-  display: flex;
-  padding: 0;
-  background: url(../../../public/images/cover.jpg) center center no-repeat;
-  background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 0.5px solid;
+  border-radius: 30px;
 }
 .header-intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
-.header-intro h1 {
-  color: #fff;
-  font-weight: 700;
+.header-img-wrapper {
+  display: inline-grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.img-sizer {
+  background: url(../../../public/images/cover-2.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+}
+.header-img {
+  object-fit: cover;
+}
+.intro-text {
+  display: inline-grid;
+}
+.intro-text h1 {
+  color: black;
   letter-spacing: 1.4px;
-  font-size: 48px;
+  font-size: 20px;
   margin-top: 0;
-  margin-bottom: 40px;
 }
 
-.header-intro div {
-  color: #fff;
-  font-size: 22px;
-  font-weight: 300;
-  line-height: 30px;
-  margin: 0 auto;
-  margin-bottom: 60px;
-}
 .header-container .intro-text {
-  padding-top: 250px;
-  padding-bottom: 250px;
-  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .intro-text {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 70px;
+  padding-right: 60px;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 900px) {
   .intro-text {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .header-img-wrapper {
+    display: none;
   }
 }
