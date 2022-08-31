@@ -16,7 +16,7 @@ function Hero({
 }) {
   return (
     <>
-      <div className="home__hero-section">
+      <div className="splash-section ">
         <div className="container">
           <div
             className="hero_row home__hero-row"
@@ -27,7 +27,7 @@ function Hero({
           >
             <div className="hero_col">
               <div className="home__hero-text-wrapper">
-                <h1 className="hero_heading dark">
+                <h1 className="splash_heading dark">
                   <span className="headline1">Connect.</span>
                   <br />
                   <span className="headline2">Communicate.</span>
@@ -54,7 +54,7 @@ function Hero({
                 <img
                   src={process.env.PUBLIC_URL + `/images/svg-9.svg`}
                   alt="DialogX"
-                  className="home__hero-img"
+                  className="splash-img"
                 />
               </div>
             </div>

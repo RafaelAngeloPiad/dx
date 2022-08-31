@@ -1,6 +1,12 @@
 .home__hero-section {
   color: #fff;
-  padding-top: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.splash-section {
+  color: #fff;
+  padding-top: 40px;
   padding-bottom: 150px;
 }
 
@@ -42,9 +48,17 @@
   margin-bottom: 16px;
 }
 
-.hero_heading {
+.splash_heading {
   margin-bottom: 24px;
   font-size: 70px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #f7f8fa;
+}
+
+.hero_heading {
+  margin-bottom: 24px;
+  font-size: 45px;
   line-height: 1.1;
   font-weight: 600;
   color: #f7f8fa;
@@ -61,12 +75,20 @@
   max-width: 555px;
 }
 
+.splash-img {
+  margin-top: 0;
+  margin-right: 0;
+  margin-right: 20px;
+  width: 100%;
+}
+
 .home__hero-img {
   margin-top: 0;
   margin-right: 0;
   margin-left: 10px;
   padding-right: 20px;
   padding-left: 20px;
+  width: 80%;
 }
 
 img {

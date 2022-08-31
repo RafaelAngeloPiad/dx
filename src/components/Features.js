@@ -2,9 +2,6 @@ import "./css/Features.css";
 function Features(props) {
   return (
     <div id="features_services" className="light">
-      <div className="features_section-title">
-        <h2>Features</h2>
-      </div>
       <div className="custom_features-container">
         {props.data
           ? props.data.map((d, i) => (
