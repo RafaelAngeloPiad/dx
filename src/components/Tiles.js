@@ -11,7 +11,7 @@ function ServicesTiles(props) {
         {props.data
           ? props.data.map((d, i) => (
               <div className="custom_tiles" key={`${d.title}-${i}`}>
-                <img src={d.img} className="img--small" alt="Service" />
+                <img src={d.img} className="img--large" alt="Service" />
                 <div className="tiles_service-desc">
                   <h3>
                     <b>{d.title}</b>

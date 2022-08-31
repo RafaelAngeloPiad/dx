@@ -3,7 +3,6 @@
   grid-template-columns: repeat(auto-fit, minmax(276px, 1fr));
   grid-template-rows: auto;
   text-align: center;
-  padding: 50px;
 }
 
 .custom_tiles {
@@ -37,18 +36,18 @@
 #tiles_services h2 {
   font-weight: 700;
   letter-spacing: 1.4px;
-  font-size: 48px;
+  font-size: 60px;
 }
 
 #tiles_services div {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .tiles_section-title {
-  font-size: 18px;
+  font-size: 20px;
   padding: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
   justify-content: center;
   text-align: center;
 }
@@ -81,11 +80,17 @@
 .img--medium {
   width: 60%;
   padding: 8px 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .img--large {
   width: 80%;
   font-size: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 960px) {

@@ -5,12 +5,11 @@ export const advantage1 = {
   topLine: "Advantage",
   headline: <div>Secure</div>,
   description: (
-    <div>
-      A fully featured <b>Carrier as a Service platform</b>, enabling CSPs
-      (Communication Service Providers) to deploy <b>unified communications</b>{" "}
-      globally with <b>zero capital investment</b> through a cloud-based or
-      on-prem platform.
-    </div>
+    <span>
+      We designed a system that’s so bulletproof, we patented it. Enjoy
+      disaster-proof service thats always up, always on: cloud-based, high
+      redundancy, and colocation hosted.
+    </span>
   ),
   buttonLabel: "Get in Touch",
   imgStart: "",
@@ -25,12 +24,11 @@ export const advantage2 = {
   topLine: "Advantage",
   headline: <div>Inclusive</div>,
   description: (
-    <div>
-      A fully featured <b>Carrier as a Service platform</b>, enabling CSPs
-      (Communication Service Providers) to deploy <b>unified communications</b>{" "}
-      globally with <b>zero capital investment</b> through a cloud-based or
-      on-prem platform.
-    </div>
+    <span>
+      Our fully customizable phone system is a breeze to set up. Easily add and
+      remove users and features to suit your business needs. And only pay for
+      what you need with month-to-month contracts.
+    </span>
   ),
   buttonLabel: "Get in Touch",
   imgStart: "start",
@@ -45,12 +43,11 @@ export const advantage3 = {
   topLine: "Advantage",
   headline: <div>Flexible</div>,
   description: (
-    <div>
-      A fully featured <b>Carrier as a Service platform</b>, enabling CSPs
-      (Communication Service Providers) to deploy <b>unified communications</b>{" "}
-      globally with <b>zero capital investment</b> through a cloud-based or
-      on-prem platform.
-    </div>
+    <span>
+      We designed a system that’s so bulletproof, we patented it. Enjoy
+      disaster-proof service thats always up, always on: cloud-based, high
+      redundancy, and colocation hosted.
+    </span>
   ),
   buttonLabel: "Get in Touch",
   imgStart: "",
