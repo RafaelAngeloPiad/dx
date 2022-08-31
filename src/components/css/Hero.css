@@ -2,12 +2,14 @@
   color: #fff;
   padding-top: 150px;
   padding-bottom: 150px;
+  padding-left: 80px;
 }
 
 .splash-section {
   color: #fff;
   padding-top: 40px;
   padding-bottom: 150px;
+  padding-left: 80px;
 }
 
 .home__hero-row {
@@ -110,16 +112,22 @@ img {
 }
 
 @media screen and (max-width: 991px) {
-  .container {
+  .home__hero-section {
     padding-right: 30px;
     padding-left: 30px;
-  }
-  .home__hero-section {
     padding: 100px 0px;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .splash_heading {
+    font-size: 50px;
+  }
+
+  .headline2 {
+    padding-left: 0px;
+  }
+
   .home__hero-text-wrapper {
     padding-bottom: 65px;
   }

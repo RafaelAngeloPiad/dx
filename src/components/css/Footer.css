@@ -45,7 +45,6 @@
 }
 
 .custom_footer-links {
-  width: 100%;
   max-width: 1000px;
   display: flex;
   justify-content: center;
@@ -138,11 +137,6 @@
 }
 
 @media screen and (max-width: 820px) {
-  .custom_footer-links {
-    margin-left: 50px;
-    padding-top: 2rem;
-  }
-
   .custom_footer-input {
     width: 100%;
   }
@@ -160,11 +154,13 @@
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
   .custom_footer-links {
     display: grid;
+
     text-align: center;
     justify-content: center;
+    align-items: center;
     grid-template-rows: auto;
     padding: 0px;
     margin: 0px;

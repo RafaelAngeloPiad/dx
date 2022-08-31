@@ -96,16 +96,21 @@
     display: none;
   }
   .blobs {
+    padding-left: 0;
+    padding-top: 0;
     display: none;
   }
   .blobs2 {
-    display: none;
+    padding-top: 0;
+    padding-left: 0;
   }
 
   .blobV {
-    display: none;
+    padding-top: 0;
+    padding-left: 0;
   }
   .blobV2 {
-    display: none;
+    padding-top: 130px;
+    padding-left: 0;
   }
 }

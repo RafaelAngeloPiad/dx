@@ -21,7 +21,7 @@ function Hero({
           lightBg ? "home__hero-section" : "home__hero-section dxdarkBg"
         }
       >
-        <div className="container">
+        <div className="hero_container">
           <div
             className="hero_row home__hero-row"
             style={{
