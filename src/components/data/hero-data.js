@@ -82,34 +82,6 @@ export const SignUpHero = {
   alt: "Credit Card",
 };
 
-export const Headliner = {
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: "Connect.Communicate.Collaborate.",
-  headline: (
-    <div>
-      Connect.
-      <br />
-      Communicate.
-      <br />
-      Collaborate.
-    </div>
-  ),
-  description: (
-    <div>
-      A fully featured <b>Carrier as a Service platform</b>, enabling CSPs
-      (Communication Service Providers) to deploy <b>unified communications</b>{" "}
-      globally with <b>zero capital investment</b> through a cloud-based or
-      on-prem platform.
-    </div>
-  ),
-  buttonLabel: "Get in Touch",
-  imgStart: "",
-  img: "images/svg-9.svg",
-  alt: "Vault",
-};
-
 export const advantage1 = {
   lightBg: true,
   lightText: false,

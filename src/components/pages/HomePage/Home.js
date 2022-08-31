@@ -1,4 +1,5 @@
 import Hero from "../../Hero";
+import Splash from "../../Splash";
 import Header2 from "../../Header2";
 import Tiles from "../../Tiles";
 import Header from "../../Header";
@@ -30,7 +31,7 @@ function Home() {
 
   return (
     <>
-      <Hero {...Headliner} />
+      <Splash />
       <Header2 />
       <Advantages {...advantage1} />
       <Advantages {...advantage2} />
