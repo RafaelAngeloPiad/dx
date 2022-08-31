@@ -12,7 +12,6 @@ function HeroSection() {
           className="btns"
           buttonStyle="custom_btn--primary"
           buttonSize="custom_btn--large"
-          onClick={console.log("hey")}
         >
           GET STARTED
         </Button>

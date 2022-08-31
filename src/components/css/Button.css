@@ -21,6 +21,19 @@
   transition: all 0.3s ease-out;
 }
 
+.custom_btn--words {
+  background-color: transparent;
+  color: #276afb;
+  font-weight: bolder;
+  transition: all 0.3s ease-out;
+}
+
+.custom_btn--words:hover {
+  transition: all 0.3s ease-out;
+  background-color: #fff !important;
+  color: #f00946 !important;
+}
+
 .custom_btn--medium {
   padding: 8px 20px;
   font-size: 18px;

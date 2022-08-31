@@ -1,6 +1,10 @@
 import "./css/Button.css";
 
-const STYLES = ["custom_btn--primary", "custom_btn--outline"];
+const STYLES = [
+  "custom_btn--primary",
+  "custom_btn--outline",
+  "custom_btn--words",
+];
 
 const SIZES = [
   "custom_btn--medium",

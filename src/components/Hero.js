@@ -26,7 +26,7 @@ function Hero({
             className="hero_row home__hero-row"
             style={{
               display: "flex",
-              flexDirection: imgStart === "start" ? "row-reverse" : "hero_row",
+              flexDirection: imgStart === "start" ? "row-reverse" : "row",
             }}
           >
             <div className="hero_col">

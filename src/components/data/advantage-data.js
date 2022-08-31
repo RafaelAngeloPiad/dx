@@ -34,7 +34,7 @@ export const advantage2 = {
   ),
   buttonLabel: "Get in Touch",
   imgStart: "start",
-  img: "images/svg-5.svg",
+  img: "images/svg-3.svg",
   alt: "Vault",
 };
 
