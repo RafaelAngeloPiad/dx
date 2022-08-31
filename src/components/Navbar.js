@@ -87,11 +87,20 @@ function Navbar() {
 
                 <li className="custom_navbar-item">
                   <Link
-                    to="/products"
+                    to="/caas"
                     className="custom_navbar-links"
                     onClick={closeMobileMenu}
                   >
-                    Products
+                    CaaS
+                  </Link>
+                </li>
+                <li className="custom_navbar-item">
+                  <Link
+                    to="/about"
+                    className="custom_navbar-links"
+                    onClick={closeMobileMenu}
+                  >
+                    About
                   </Link>
                 </li>
                 <li className="custom_navbar-btn">

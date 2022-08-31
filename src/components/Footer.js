@@ -71,7 +71,7 @@ function Footer() {
           <div className="custom_footer-logo">
             <Link to="/" className="social-logo">
               <img
-                src={process.env.PUBLIC_URL + `/images/logoDark.webp`}
+                src={process.env.PUBLIC_URL + `/images/logo.webp`}
                 className="custom_navbar-icon"
                 alt="DialogX"
               />

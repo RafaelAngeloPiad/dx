@@ -5,7 +5,6 @@ import ScrollToTop from "../../ScrollToTop";
 function SignUp() {
   return (
     <>
-      <ScrollToTop />
       <Hero {...SignUpHero} />
       <Hero {...homeObjThree} />
     </>

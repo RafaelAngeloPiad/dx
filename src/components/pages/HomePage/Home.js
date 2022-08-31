@@ -4,7 +4,7 @@ import HeroImg from "../../HeroImg";
 import Pricing from "../../Pricing";
 import Tiles from "../../Tiles";
 import Header from "../../Header";
-import About from "../../About";
+import About from "../../AboutUs";
 import Slider from "../../Slider";
 import Features from "../../Features";
 import ScrollToTop from "../../ScrollToTop";
@@ -20,7 +20,6 @@ import { header } from "../../data/header-data";
 import { features } from "../../data/features-data";
 import { dataSlider } from "../../data/slider-data";
 import { tiles } from "../../data/tiles-data";
-import { about } from "../../data/about-data";
 
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
@@ -52,7 +51,6 @@ function Home() {
       <Hero {...homeObjTwo} />
       <Tiles data={tiles} />
       <Hero {...homeObjFour} />
-      <About data={about} />
     </>
   );
 }
