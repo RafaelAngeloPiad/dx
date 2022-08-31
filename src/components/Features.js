@@ -1,3 +1,4 @@
+import { Button } from "./Button";
 import "./css/Features.css";
 function Features(props) {
   return (
@@ -16,6 +17,7 @@ function Features(props) {
                   </h3>
                   <div>{d.description}</div>
                 </div>
+                <br />
               </div>
             ))
           : "loading"}
