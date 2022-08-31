@@ -8,7 +8,6 @@ function HeroImg(props) {
         <div className="heroimg-intro">
           <div className="heroimg-overlay">
             <div className="heroimg-intro-text">
-              <h1>{props.data ? props.data.title : "Loading"}</h1>
               <div>{props.data ? props.data.paragraph : "Loading"}</div>
               <div className="heroimg-button-wrapper">
                 <Button buttonColor="custom_red">Get in Touch</Button>

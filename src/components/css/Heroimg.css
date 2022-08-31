@@ -34,7 +34,7 @@
 }
 
 .heroimg-intro-text {
-  padding-top: 180px;
+  padding-top: 100px;
   padding-bottom: 180px;
   text-align: center;
   font-size: 22px;
@@ -47,16 +47,16 @@
 }
 
 .heroimg-button-wrapper {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 600px) {
-  .heroimg-intro h1 {
+  /* .heroimg-intro h1 {
     font-size: 30px;
     line-height: 30px;
     margin-top: 0;
     margin-bottom: 70px;
-  }
+  } */
 
   .heroimg-intro-text {
     padding-top: 160px;
