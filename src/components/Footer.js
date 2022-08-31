@@ -1,6 +1,5 @@
-import "../../css/Footer.css";
-import LogoDx from "../../img/logo.webp";
-import { Button } from "../../Button";
+import "./css/Footer.css";
+import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import {
   FaFacebook,
@@ -71,7 +70,11 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="custom_footer-logo">
             <Link to="/" className="social-logo">
-              <img src={LogoDx} className="custom_navbar-icon" alt="DialogX" />
+              <img
+                src={process.env.PUBLIC_URL + `/images/logoDark.webp`}
+                className="custom_navbar-icon"
+                alt="DialogX"
+              />
             </Link>
           </div>
           <small className="website-rights">© Dialogx Ltd. 2022</small>

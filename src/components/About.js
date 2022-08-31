@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import "./css/About.css";
-import aboutImg from "./img/about.jpg";
 
 function About(props) {
   const aboutRef = useRef();
@@ -11,7 +10,11 @@ function About(props) {
         <div className="row">
           <div className="col-xs-12 col-md-6">
             {" "}
-            <img src={aboutImg} className="img-responsive" alt="" />{" "}
+            <img
+              src={process.env.PUBLIC_URL + `/images/about.jpg`}
+              className="img-responsive"
+              alt=""
+            />{" "}
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">

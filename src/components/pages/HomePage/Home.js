@@ -5,12 +5,12 @@ import {
   homeObjTwo,
   homeObjThree,
   homeObjFour,
-  tiles,
-  header,
-  about,
-  dataSlider,
-  features,
-} from "../../data/Data";
+} from "../../data/hero-data";
+import { header } from "../../data/header-data";
+import { features } from "../../data/features-data";
+import { dataSlider } from "../../data/slider-data";
+import { tiles } from "../../data/tiles-data";
+import { about } from "../../data/about-data";
 import Pricing from "../../Pricing";
 import Tiles from "../../Tiles";
 import Header from "../../Header";

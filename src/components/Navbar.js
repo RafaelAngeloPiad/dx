@@ -2,16 +2,14 @@ import { useState, useEffect } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./css/Navbar.css";
-import LogoDx from "./img/logoDark.webp";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa"; //https://react-icons.github.io/react-icons
 import { IconContext } from "react-icons/lib";
-import { DropdownItems } from "./data/Data";
+import { DropdownItems } from "./data/dropdown-data";
 import Dropdown from "./Dropdown";
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
-
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
   const [dropdown, setDropdown] = useState(false);
@@ -55,7 +53,11 @@ function Navbar() {
               className="custom_navbar-logo"
               onClick={closeMobileMenu}
             >
-              <img src={LogoDx} className="custom_navbar-icon" alt="DialogX" />
+              <img
+                src={process.env.PUBLIC_URL + `/images/logoDark.webp`}
+                className="custom_navbar-icon"
+                alt="DialogX"
+              />
             </Link>
             <div className="custom_menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
