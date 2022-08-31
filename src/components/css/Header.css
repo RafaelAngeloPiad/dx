@@ -95,4 +95,17 @@
   .header-img-wrapper {
     display: none;
   }
+  .blobs {
+    display: none;
+  }
+  .blobs2 {
+    display: none;
+  }
+
+  .blobV {
+    display: none;
+  }
+  .blobV2 {
+    display: none;
+  }
 }
