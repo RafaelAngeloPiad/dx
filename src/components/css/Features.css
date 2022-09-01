@@ -22,6 +22,7 @@
   justify-content: center;
   text-align: left;
   background-color: #2b3039;
+  border: 1px solid #e1e1e1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -31,6 +32,21 @@
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   /* background-color: #2b3039; */
+}
+
+.features_service-desc li {
+  list-style: none;
+  margin-bottom: 6px;
+  margin-left: 6px;
+  padding: 0;
+}
+
+.features_service-desc li:before {
+  color: #5ca9fb;
+  content: "✓";
+  font-size: 11px;
+  font-weight: 300;
+  padding-right: 8px;
 }
 
 .custom_features:hover {
@@ -72,9 +88,7 @@
 }
 
 .icon {
-  font-size: 150px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 50px;
 }
 
 @media screen and (max-width: 960px) {

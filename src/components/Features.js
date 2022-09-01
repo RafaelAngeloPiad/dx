@@ -15,7 +15,12 @@ function Features(props) {
                   <h3>
                     <b>{d.title}</b>
                   </h3>
-                  <div>{d.description}</div>
+                  {/* <div>{d.description}</div> */}
+                  <ul>
+                    {d.Why.map((w, idx) => (
+                      <li key={`${w}-${idx}`}>{w}</li>
+                    ))}
+                  </ul>
                 </div>
                 <br />
               </div>
