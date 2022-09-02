@@ -8,10 +8,10 @@ function HeroImg(props) {
         <div className="heroimg-intro">
           <div className="heroimg-overlay">
             <div className="heroimg-intro-text">
-              {/* <h1>{props.data ? props.data.title : "Loading"}</h1> */}
+              <h1>{props.data ? props.data.headline : "Loading"}</h1>
               <div>{props.data ? props.data.paragraph : "Loading"}</div>
               <div className="heroimg-button-wrapper">
-                <Button buttonColor="custom_red">Get in Touch</Button>
+                <Button buttonColor="custom_red">Know More</Button>
               </div>
             </div>
           </div>

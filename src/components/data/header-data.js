@@ -12,6 +12,21 @@ export const header = {
 };
 
 export const headerProduct = {
+  headline: "Carrier-as-a-Service",
+  title: "Dialogx",
+  paragraph: (
+    <>
+      <div>
+        Dialogx CaaS is a cloud-based carrier infrastructure platform, designed
+        to enable service providers to deploy Unified Communications globally
+        with zero capital investment through a cloud-based or in data-centre
+        solution.
+      </div>
+    </>
+  ),
+};
+
+export const info = {
   headline: "Connect.Communicate.Collaborate.",
   title: "Dialogx Ltd - Carrier as a Service",
   paragraph: (
