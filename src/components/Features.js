@@ -2,7 +2,7 @@ import { Button } from "./Button";
 import "./css/Features.css";
 function Features(props) {
   return (
-    <div id="features_services" className="light">
+    <div id="features_services" className="dark">
       <div className="custom_features-container">
         {props.data
           ? props.data.map((d, i) => (
@@ -15,7 +15,8 @@ function Features(props) {
                   <h3>
                     <b>{d.title}</b>
                   </h3>
-                  {/* <div>{d.description}</div> */}
+                  <div>{d.description}</div>
+                  <br />
                   <ul>
                     {d.Why.map((w, idx) => (
                       <li key={`${w}-${idx}`}>{w}</li>

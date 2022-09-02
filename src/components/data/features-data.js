@@ -11,6 +11,35 @@ import {
 
 export const features = [
   {
+    icon: <MdAccountBalance />,
+    title: "Connect.",
+    description: "Why Connect.",
+    Why: [
+      "Single sign-on",
+      "Encrypted sessions",
+      "Dismiss attendees",
+      "COMING SOON: End-to-end encryption",
+    ],
+  },
+  {
+    icon: <MdAccountCircle />,
+
+    title: "Communicate",
+    description: "Why Communicate",
+    Why: ["HD video", "Preview your webcam", "Screen sharing", "Drawing tools"],
+  },
+  {
+    icon: <MdApi />,
+    title: "Collaborate.",
+    description: "Why Collaborate",
+    Why: [
+      "Crystal clear audio",
+      "Commuter mode",
+      "Built-in audio with VoIP and Toll",
+      "Background noise suppression",
+    ],
+  },
+  {
     icon: <MdAssignment />,
     title: "Latest Security",
     description:
