@@ -1,11 +1,11 @@
-.custom_tiles-container {
+.s_tiles_container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(276px, 1fr));
   grid-template-rows: auto;
   text-align: center;
 }
 
-.custom_tiles {
+.s_tiles {
   display: inline-grid;
   justify-content: center;
   text-align: center;
@@ -20,31 +20,31 @@
   transition: all 0.3s ease-in-out;
 }
 
-.custom_tiles:hover {
+.s_tiles:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   cursor: pointer;
 }
 
-#tiles_services {
+#services_t {
   padding: 100px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 }
-#tiles_services .tiles_service-desc {
+#services_t .s_tiles_desc {
   margin: 10px 10px 20px;
 }
-#tiles_services h2 {
+#services_t h2 {
   font-weight: 700;
   letter-spacing: 1.4px;
   font-size: 60px;
 }
 
-#tiles_services div {
+#services_t div {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-.tiles_section-title {
+.services_title {
   font-size: 20px;
   padding: 20px;
   margin-bottom: 150px;
@@ -52,21 +52,9 @@
   text-align: center;
 }
 
-#tiles_services h3 {
+#services_t h3 {
   font-weight: 500;
   padding: 5px 0;
-}
-
-.light {
-  color: #fff;
-}
-
-.dark {
-  color: #2e3033;
-}
-
-.darkBg {
-  background-color: #1c2237;
 }
 
 .img--small {
@@ -94,23 +82,23 @@
 }
 
 @media screen and (max-width: 960px) {
-  .custom_tiles-container {
+  .s_tiles_container {
     padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  #tiles_services div {
+  #services_t div {
     padding-left: 10px;
     padding-right: 10px;
   }
-  #tiles_services {
+  #services_t {
     padding: 5px;
   }
 }
 
 @media screen and (max-width: 300px) {
-  .custom_tiles-container {
+  .s_tiles_container {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 }

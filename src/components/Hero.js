@@ -16,22 +16,18 @@ function Hero({
 }) {
   return (
     <>
-      <div
-        className={
-          lightBg ? "home__hero-section" : "home__hero-section dxdarkBg"
-        }
-      >
+      <div className={lightBg ? "hero-section" : "hero-section dxdarkBg"}>
         <div className="hero_container">
           <div
-            className="hero_row home__hero-row"
+            className="hero_row"
             style={{
               display: "flex",
               flexDirection: imgStart === "start" ? "row-reverse" : "row",
             }}
           >
             <div className="hero_col">
-              <div className="home__hero-text-wrapper">
-                <div className="hero_top-line">{topLine}</div>
+              <div className="hero-text-wrapper">
+                <div className="hero-top-line">{topLine}</div>
                 <h1
                   className={lightText ? "hero_heading" : "hero_heading dark"}
                 >
@@ -39,9 +35,7 @@ function Hero({
                 </h1>
                 <div
                   className={
-                    lightTextDesc
-                      ? "home__hero-subtitle"
-                      : "home__hero-subtitle dark"
+                    lightTextDesc ? "hero-subtitle" : "hero-subtitle dark"
                   }
                 >
                   {description}
@@ -57,8 +51,8 @@ function Hero({
               </div>
             </div>
             <div className="hero_col">
-              <div className="home__hero-img-wrapper">
-                <img src={img} alt={alt} className="home__hero-img" />
+              <div className="hero-img-wrapper">
+                <img src={img} alt={alt} className="hero-img" />
               </div>
             </div>
           </div>

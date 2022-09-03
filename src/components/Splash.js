@@ -1,31 +1,20 @@
-import "./css/Hero.css";
+import "./css/Splash.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 
-function Hero({
-  lightBg,
-  topLine,
-  lightText,
-  lightTextDesc,
-  headline,
-  description,
-  buttonLabel,
-  img,
-  alt,
-  imgStart,
-}) {
+function Splash() {
   return (
     <>
       <div className="splash-section">
         <div
-          className="hero_row home__hero-row"
+          className="splash_row"
           style={{
             display: "flex",
             flexDirection: "row-reverse",
           }}
         >
-          <div className="hero_col">
-            <div className="home__hero-text-wrapper">
+          <div className="splash_col">
+            <div className="splash-text-wrapper">
               <h1 className="splash_heading dark">
                 <span className="headline1">Connect.</span>
                 <br />
@@ -33,7 +22,7 @@ function Hero({
                 <br />
                 <span className="headline3">Collaborate.</span>
               </h1>
-              <div className="home__hero-subtitle dark">
+              <div className="splash_subtitle dark">
                 enabling Communication Service Providers to deploy{" "}
                 <b>unified communications</b> globally with{" "}
                 <b>zero capital investment.</b>
@@ -45,8 +34,8 @@ function Hero({
               </Link>
             </div>
           </div>
-          <div className="hero_col">
-            <div className="home__hero-img-wrapper">
+          <div className="splash_col">
+            <div className="splash_img_wrapper">
               <img
                 src={process.env.PUBLIC_URL + `/images/svg-9.svg`}
                 alt="DialogX"
@@ -60,4 +49,4 @@ function Hero({
   );
 }
 
-export default Hero;
+export default Splash;

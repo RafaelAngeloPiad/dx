@@ -12,3 +12,23 @@
   user-select: none; /* Non-prefixed version, currently
                                 supported by Chrome, Edge, Opera and Firefox */
 }
+
+.light {
+  color: #fff;
+}
+
+.dark {
+  color: #2e3033;
+}
+
+.darkBg {
+  background-color: #1c2237;
+}
+
+.dxdarkBg {
+  background-color: #2b3039;
+}
+
+.dxBg-gradient {
+  background-image: linear-gradient(to top right, #fd8567, #ff958c, #ffa7b2);
+}

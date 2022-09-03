@@ -1,18 +1,18 @@
 import "./css/Tiles.css";
 function ServicesTiles(props) {
   return (
-    <div id="tiles_services" className="light darkBg">
-      <div className="tiles_section-title">
+    <div id="services_t" className="light darkBg">
+      <div className="services_title">
         <h2>Our Services</h2>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus
         leonec.
       </div>
-      <div className="custom_tiles-container">
+      <div className="s_tiles_container">
         {props.data
           ? props.data.map((d, i) => (
-              <div className="custom_tiles" key={`${d.title}-${i}`}>
+              <div className="s_tiles" key={`${d.title}-${i}`}>
                 <img src={d.img} className="img--large" alt="Service" />
-                <div className="tiles_service-desc">
+                <div className="s_tiles_desc">
                   <h3>
                     <b>{d.title}</b>
                   </h3>
