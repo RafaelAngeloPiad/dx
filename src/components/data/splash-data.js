@@ -46,7 +46,7 @@ export const splash2 = {
 export const splashSlider = [
   {
     id: "1",
-    imgStart: "yes",
+    imgStart: "",
     headline: <>a platform ready for unified communications</>,
     subtitle: (
       <>
@@ -56,7 +56,7 @@ export const splashSlider = [
         solution.
       </>
     ),
-    img: "images/svg-2.svg",
+    img: "images/platform.jpg",
   },
   {
     id: "2",

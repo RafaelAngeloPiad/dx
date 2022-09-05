@@ -14,6 +14,11 @@
   opacity: 0;
   transition: opacity ease-in-out 0.4s;
 }
+
+.Splashslide img {
+  border-radius: 25px;
+}
+
 .active-anim {
   opacity: 1;
 }
@@ -79,7 +84,7 @@
   .container-splashSlider {
     height: 1100px;
   }
-  .Splashslide-control-panel {
+  .btn-Splashslide {
     display: none;
   }
 }
@@ -88,8 +93,8 @@
   .container-splashSlider {
     height: 1100px;
   }
-  .Splashslide-control-panel {
-    display: none;
+  .container-dots {
+    bottom: 40px;
   }
 }
 
