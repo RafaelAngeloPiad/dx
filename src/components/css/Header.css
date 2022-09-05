@@ -86,7 +86,7 @@
   -o-background-size: cover;
   border-radius: 30px;
   overflow: hidden;
-  width: 300px;
+  width: 350px;
   height: 200px;
 }
 .header-img {
@@ -118,7 +118,11 @@
     padding-right: 40px;
   }
   .header-img-wrapper {
-    display: none;
+    justify-content: center;
+  }
+  .img-sizer {
+    width: 350px;
+    height: 200px;
   }
   .blobs {
     padding-left: 0;
@@ -128,6 +132,7 @@
   .blobs2 {
     padding-top: 0;
     padding-left: 0;
+    display: none;
   }
 
   .blobV {
@@ -144,9 +149,55 @@
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 850px) {
+  .img-sizer {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header-img-wrapper {
+    justify-content: center;
+    padding-left: 0px;
+    padding-bottom: 20px;
+  }
+  .img-sizer {
+    width: 230px;
+    height: 200px;
+  }
+  .header-container {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px;
+  }
   .header3-intro {
     padding-left: 0px;
     padding-right: 0px;
+  }
+  .header-intro {
+    margin: 0;
+    padding: 0;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .intro-text {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 250px;
+  }
+  .blobs {
+    display: none;
+  }
+  .blobs2 {
+    display: none;
+  }
+
+  .blobV {
+    display: none;
+  }
+  .blobV2 {
+    display: none;
   }
 }

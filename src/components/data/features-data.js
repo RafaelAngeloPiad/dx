@@ -14,7 +14,7 @@ export const features = [
     icon: <MdAccountBalance />,
     title: "Connect.",
     description:
-      "Social connection can lower anxiety and depression, help us regulate our emotions, lead to higher self-esteem and empathy, and actually improve our immune systems",
+      "Social connection can lower anxiety and depression, help us regulate our emotions.",
     Why: [
       "Single sign-on",
       "Encrypted sessions",
@@ -26,15 +26,14 @@ export const features = [
     icon: <MdAccountCircle />,
 
     title: "Communicate",
-    description:
-      "We communicate for a variety of reasons! We use communication to share information, comment, ask questions, express wants and needs, develop social relationships, social etiquette",
+    description: "We communicate for a variety of reasons!",
     Why: ["HD video", "Preview your webcam", "Screen sharing", "Drawing tools"],
   },
   {
     icon: <MdApi />,
     title: "Collaborate.",
     description:
-      "Collaboration improves the way your team works together and problem solves. This leads to more innovation, efficient processes, increased success, and improved communication.",
+      "Collaboration improves the way your team works together and problem solves.",
     Why: [
       "Crystal clear audio",
       "Commuter mode",
