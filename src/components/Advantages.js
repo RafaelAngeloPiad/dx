@@ -3,7 +3,7 @@ import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 
-function Hero({
+function Advantages({
   lightBg,
   topLine,
   lightText,
@@ -17,28 +17,22 @@ function Hero({
 }) {
   return (
     <>
-      <div
-        className={lightBg ? "home__adv-section" : "home__adv-section dxdarkBg"}
-      >
+      <div className={lightBg ? "adv-section" : "adv-section dxdarkBg"}>
         <div
-          className="adv_row home__adv-row"
+          className="adv-row"
           style={{
             display: "flex",
             flexDirection: imgStart === "start" ? "row-reverse" : "row",
           }}
         >
           <div className="adv_col">
-            <div className="home__adv-text-wrapper">
+            <div className="adv-text-wrapper">
               <div className="adv_top-line">{topLine}</div>
               <h1 className={lightText ? "adv_heading" : "adv_heading dark"}>
                 {headline}
               </h1>
               <div
-                className={
-                  lightTextDesc
-                    ? "home__adv-subtitle"
-                    : "home__adv-subtitle dark"
-                }
+                className={lightTextDesc ? "adv-subtitle" : "adv-subtitle dark"}
               >
                 {description}
               </div>
@@ -50,8 +44,8 @@ function Hero({
             </div>
           </div>
           <div className="adv_col">
-            <div className="home__adv-img-wrapper">
-              <img src={img} alt={alt} className="home__adv-img" />
+            <div className="adv-img-wrapper">
+              <img src={img} alt={alt} className="adv-img" />
             </div>
           </div>
         </div>
@@ -60,4 +54,4 @@ function Hero({
   );
 }
 
-export default Hero;
+export default Advantages;

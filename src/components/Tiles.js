@@ -3,9 +3,10 @@ function ServicesTiles(props) {
   return (
     <div id="services_t" className="light darkBg">
       <div className="services_title">
-        <h2>Our Services</h2>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus
-        leonec.
+        <h2>Open Integration Framework</h2>
+        Easily connect popular business and CRM apps to your contact center,
+        business phone, video meetings and team chat. Help your teams achieve
+        new levels of productivity without complexity or cost.
       </div>
       <div className="s_tiles_container">
         {props.data

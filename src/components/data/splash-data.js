@@ -1,16 +1,18 @@
 export const splash1 = {
-  imgStart: "yes",
+  imgStart: "",
   headline: (
     <>
-      <span className="headline1">Connect.</span>
+      <p></p>
+      <span>Connect.</span>
       <br />
-      <span className="headline2">Communicate.</span>
+      <span>Communicate.</span>
       <br />
-      <span className="headline3">Collaborate.</span>
+      <span>Collaborate.</span>
     </>
   ),
   subtitle: (
     <>
+      <br />
       enabling Communication Service Providers to deploy{" "}
       <b>unified communications</b> globally with{" "}
       <b>zero capital investment.</b>
@@ -68,7 +70,6 @@ export const splashSlider = [
         gives Service Providers access to advanced communications services
         including voice, messaging, chat, video, conferencing and business
         productivity.
-        <br />
         <br />
       </>
     ),

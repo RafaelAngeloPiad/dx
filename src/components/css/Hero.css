@@ -21,19 +21,13 @@
 }
 
 .hero-text-wrapper {
-  max-width: 540px;
   padding-top: 0;
 }
-.headline2 {
-  padding-left: 30px;
-}
-.headline1 {
-  padding-left: 0px;
-}
+
 .hero-top-line {
   color: #fd8567;
-  font-size: 20px;
-  line-height: 16px;
+  font-size: 1.7vmax;
+  line-height: 1.7vmax;
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
@@ -42,29 +36,27 @@
 
 .hero_heading {
   margin-bottom: 24px;
-  font-size: 50px;
-  line-height: 1.1;
+  font-size: 3.8vmax;
+  line-height: 3.8vmax;
   font-weight: 600;
-  color: #f7f8fa;
 }
 
 .hero-subtitle {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 35px;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 2vmax;
+  line-height: 2vmax;
 }
 .hero-img-wrapper {
-  max-width: 555px;
-}
-
-.hero-img {
   margin-top: 0;
   margin-right: 0;
   margin-left: 10px;
   padding-right: 20px;
   padding-left: 20px;
+}
+
+.hero-img {
   width: 80%;
   border: 0;
   vertical-align: middle;
@@ -86,6 +78,7 @@
 
   .hero-section {
     padding: 100px 0px;
+    padding-bottom: 0px;
   }
 
   .hero_col {

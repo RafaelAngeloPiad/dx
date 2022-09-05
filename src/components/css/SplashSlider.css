@@ -1,5 +1,5 @@
 .container-splashSlider {
-  height: 700px;
+  height: 50vmax;
   position: relative;
   overflow: hidden;
 
@@ -87,21 +87,26 @@
   .btn-Splashslide {
     display: none;
   }
+  .container-dots {
+    bottom: 5px;
+  }
 }
 
 @media screen and (max-width: 700px) {
-  .container-splashSlider {
-    height: 1100px;
-  }
   .container-dots {
-    bottom: 40px;
+    bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Splashslide {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
 @media screen and (max-width: 300px) {
-  .container-splashSlider {
-    height: 1100px;
-  }
   .Splashslide {
     padding-top: 0px;
     padding-left: 0px;

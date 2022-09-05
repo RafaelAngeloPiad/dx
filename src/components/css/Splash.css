@@ -7,16 +7,14 @@
 
 .splash_heading {
   margin-bottom: 20px;
-  font-size: 70px;
-  line-height: 1.1;
+  font-size: 5vmax;
   font-weight: 600;
-  color: #f7f8fa;
 }
 
 .splash_row {
-  align-items: center;
   display: flex;
   flex-wrap: wrap;
+  vertical-align: middle;
 }
 
 .splash_col {
@@ -24,55 +22,56 @@
   padding-right: 15px;
   padding-left: 15px;
   flex: 1;
-  max-width: 50%;
-  flex-basis: 50%;
 }
 
 .splash-text-wrapper {
-  max-width: 540px;
   padding-top: 0;
-}
-.headline2 {
-  padding-left: 30px;
-}
-.headline1 {
-  padding-left: 0px;
+  vertical-align: middle;
 }
 
 .splash_subtitle {
   padding-top: 20px;
   padding-bottom: 20px;
-
-  font-size: 25px;
-  line-height: 30px;
+  /* font-size: 25px; */
+  font-size: 2vmax;
+  line-height: 2vmax;
 }
 .splash_img_wrapper {
-  max-width: 555px;
+  display: flex;
+  text-align: center;
+  /* vertical-align: middle;
+  align-items: center;
+  justify-content: center; */
 }
 
 .splash-img {
-  margin-top: 0;
-  margin-right: 0;
-  margin-right: 20px;
+  margin-top: 40px;
   border: 0;
-  width: 95%;
-  vertical-align: middle;
-  display: inline-block;
+  width: 80%;
+}
+
+@media screen and (min-width: 1700px) {
+  .splash-section {
+    padding-left: 9vmax;
+  }
+  .splash-text-wrapper {
+    padding-top: 8vmax;
+  }
+  .splash_img_wrapper {
+    padding-top: 7vmax;
+  }
 }
 
 @media screen and (max-width: 991px) {
   .splash-section {
     padding-left: 0px;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 768px) {
   .splash_heading {
     font-size: 40px;
-  }
-
-  .headline2 {
-    padding-left: 0px;
   }
 
   .splash-text-wrapper {
@@ -83,6 +82,9 @@
     max-width: 100%;
     flex-basis: 100%;
   }
+  .splash-img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -92,5 +94,6 @@
 
   .splash_subtitle {
     font-size: 20px;
+    line-height: 5.5vmax;
   }
 }
