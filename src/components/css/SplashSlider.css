@@ -2,47 +2,25 @@
   height: 700px;
   position: relative;
   overflow: hidden;
+
   /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); */
-  display: grid;
-}
-@media screen and (max-width: 1000px) {
-  .container-splashSlider {
-    height: 1100px;
-  }
-  .Splashslide-control-panel {
-    display: none;
-  }
 }
 
-@media screen and (max-width: 700px) {
-  .container-splashSlider {
-    height: 1100px;
-  }
-  .Splashslide-control-panel {
-    display: none;
-  }
-}
 .Splashslide {
+  padding-top: 20px;
   padding-left: 80px;
   padding-right: 80px;
-  width: 100%;
-  height: 100%;
   position: absolute;
   opacity: 0;
   transition: opacity ease-in-out 0.4s;
-}
-.Splashslide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 .active-anim {
   opacity: 1;
 }
 
 .btn-Splashslide {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   /* background: #f1f1f1; */
   /* border: 1px solid rgba(34, 34, 34, 0.287); */
@@ -71,7 +49,7 @@
 
 .container-dots {
   position: absolute;
-  bottom: 60px;
+  bottom: 120px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -92,28 +70,36 @@
   position: relative;
   text-align: left;
 }
-.Splashslide-cover {
-  position: absolute;
-  grid-column: 1;
-  z-index: 1;
-}
-
-.Splashslide-img {
-  position: absolute;
-  object-fit: cover;
-  grid-column: 1;
-  z-index: 0;
-}
-
-.Splashslide-desc {
-  bottom: 0;
-  grid-column: 1;
-  z-index: 2;
-  margin-top: 310px;
-  padding-right: 20px;
-  padding-left: 20px;
-}
 
 .Splashslide-control-panel {
   z-index: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  .container-splashSlider {
+    height: 1100px;
+  }
+  .Splashslide-control-panel {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container-splashSlider {
+    height: 1100px;
+  }
+  .Splashslide-control-panel {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .container-splashSlider {
+    height: 1100px;
+  }
+  .Splashslide {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }

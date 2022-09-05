@@ -1,12 +1,12 @@
 .splash-section {
   color: #fff;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 150px;
   padding-left: 80px;
 }
 
 .splash_heading {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   font-size: 70px;
   line-height: 1.1;
   font-weight: 600;
@@ -42,7 +42,7 @@
 .splash_subtitle {
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: 35px;
+
   font-size: 25px;
   line-height: 30px;
 }
@@ -55,7 +55,7 @@
   margin-right: 0;
   margin-right: 20px;
   border: 0;
-  width: 100%;
+  width: 95%;
   vertical-align: middle;
   display: inline-block;
 }
@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 768px) {
   .splash_heading {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .headline2 {
@@ -82,5 +82,15 @@
   .splash_col {
     max-width: 100%;
     flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .splash_heading {
+    font-size: 30px;
+  }
+
+  .splash_subtitle {
+    font-size: 20px;
   }
 }

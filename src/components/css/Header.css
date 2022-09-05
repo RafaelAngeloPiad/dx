@@ -138,4 +138,15 @@
     padding-top: 130px;
     padding-left: 0;
   }
+  .header3-intro {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .header3-intro {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }

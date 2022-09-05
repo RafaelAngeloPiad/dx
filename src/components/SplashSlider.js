@@ -10,7 +10,7 @@ export default function SplashSlider(props) {
 
   setTimeout(() => {
     nextSlide();
-  }, 5000);
+  }, 25000);
 
   const nextSlide = () => {
     if (slideIndex !== props.data.length) {

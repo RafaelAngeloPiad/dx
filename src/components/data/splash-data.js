@@ -14,6 +14,8 @@ export const splash1 = {
       enabling Communication Service Providers to deploy{" "}
       <b>unified communications</b> globally with{" "}
       <b>zero capital investment.</b>
+      <br />
+      <br />
     </>
   ),
   img: "images/svg-9.svg",
@@ -66,6 +68,8 @@ export const splashSlider = [
         gives Service Providers access to advanced communications services
         including voice, messaging, chat, video, conferencing and business
         productivity.
+        <br />
+        <br />
       </>
     ),
     img: "images/aws-kubernetes.svg",
