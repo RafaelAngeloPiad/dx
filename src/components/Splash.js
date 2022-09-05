@@ -2,7 +2,7 @@ import "./css/Splash.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 
-function Splash({ headline, subtitle, imgStart, img }) {
+function Splash({ headline, subtitle, imgStart, img, buttonLabel }) {
   return (
     <>
       <div className="splash-section">
@@ -19,7 +19,7 @@ function Splash({ headline, subtitle, imgStart, img }) {
               <div className="splash_subtitle dark">{subtitle}</div>
               <Link to="/sign-up">
                 <Button buttonSize="custom_btn--wide" buttonColor="custom_blue">
-                  Know More About Us
+                  {buttonLabel}
                 </Button>
               </Link>
             </div>

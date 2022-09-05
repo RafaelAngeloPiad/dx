@@ -16,6 +16,7 @@ import { header } from "../../data/header-data";
 import { features } from "../../data/features-data";
 import { tiles } from "../../data/tiles-data";
 import { splash1 } from "../../data/splash-data";
+import SplashSlider from "../../SplashSlider";
 
 function Home() {
   // const location = useLocation();
@@ -32,11 +33,10 @@ function Home() {
 
   return (
     <>
-      <Splash {...splash1} />
+      <SplashSlider data={splash1} />
       <Advantages {...advantage1} />
       <Advantages {...advantage2} />
       <Advantages {...advantage3} />
-      <Header data={header} />
       <Hero {...homeObjThree} />
       <Features data={features} />
       <Hero {...homeObjTwo} />

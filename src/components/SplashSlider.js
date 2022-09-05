@@ -1,16 +1,16 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import "./css/SplashSlider.css";
-import leftArrow from "./icons/left-arrow.svg";
-import rightArrow from "./icons/right-arrow.svg";
+// import leftArrow from "./icons/left-arrow.svg";
+// import rightArrow from "./icons/right-arrow.svg";
 
 export default function SplashSlider(props) {
   const [slideIndex, setSlideIndex] = useState(1);
 
-  setTimeout(() => {
-    nextSlide();
-  }, 25000);
+  // setTimeout(() => {
+  //   nextSlide();
+  // }, 25000);
 
   const nextSlide = () => {
     if (slideIndex !== props.data.length) {
@@ -30,6 +30,7 @@ export default function SplashSlider(props) {
 
   const moveDot = (index) => {
     setSlideIndex(index);
+    console.log(index);
   };
 
   return (
@@ -41,7 +42,7 @@ export default function SplashSlider(props) {
             className={
               slideIndex === index + 1
                 ? "Splashslide active-anim"
-                : "Splashslide"
+                : "Splashslide not-active"
             }
           >
             <div className="Splashslide-overlay-container">
@@ -58,14 +59,14 @@ export default function SplashSlider(props) {
                     <div className="splash-text-wrapper">
                       <h1 className="splash_heading dark">{obj.headline}</h1>
                       <div className="splash_subtitle dark">{obj.subtitle}</div>
-                      <Link to="/sign-up">
-                        <Button
-                          buttonSize="custom_btn--wide"
-                          buttonColor="custom_blue"
-                        >
-                          Know More About Us
-                        </Button>
-                      </Link>
+
+                      <Button
+                        buttonSize="custom_btn--wide"
+                        buttonColor="custom_blue"
+                        onClick={nextSlide}
+                      >
+                        {obj.buttonLabel}
+                      </Button>
                     </div>
                   </div>
                   <div className="splash_col">
@@ -84,13 +85,13 @@ export default function SplashSlider(props) {
         );
       })}
       <div className="Splashslide-control-panel">
-        <button onClick={nextSlide} className={"btn-Splashslide next"}>
+        {/* <button onClick={nextSlide} className={"btn-Splashslide next"}>
           <img src={rightArrow} alt="Slider Right" />
         </button>
 
         <button onClick={prevSlide} className={"btn-Splashslide prev"}>
           <img src={leftArrow} alt="Slider Left" />
-        </button>
+        </button> */}
 
         <div className="container-dots">
           {Array.from({ length: 2 }).map((item, index) => (
