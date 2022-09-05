@@ -15,6 +15,7 @@ import { advantage1, advantage2, advantage3 } from "../../data/advantage-data";
 import { header } from "../../data/header-data";
 import { features } from "../../data/features-data";
 import { tiles } from "../../data/tiles-data";
+import { splash1 } from "../../data/splash-data";
 
 function Home() {
   // const location = useLocation();
@@ -31,7 +32,7 @@ function Home() {
 
   return (
     <>
-      <Splash />
+      <Splash {...splash1} />
       <Advantages {...advantage1} />
       <Advantages {...advantage2} />
       <Advantages {...advantage3} />
