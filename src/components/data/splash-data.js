@@ -13,7 +13,7 @@ export const splash1 = [
     ),
     subtitle: (
       <>
-        enabling Communication Service Providers to deploy{" "}
+        Enabling Communication Service Providers to deploy{" "}
         <b>unified communications</b> globally with{" "}
         <b>zero capital investment.</b>
         <br />
@@ -21,24 +21,32 @@ export const splash1 = [
       </>
     ),
     img: "images/svg-9.svg",
+    buttonShow: "yes",
     buttonLabel: "Know More",
   },
   {
-    imgStart: "yes",
-    headline: "",
+    imgStart: "",
+    headline: (
+      <>
+        <p></p>
+        <span>Connect.</span>
+        <br />
+        <span>Communicate.</span>
+        <br />
+        <span>Collaborate.</span>
+      </>
+    ),
     subtitle: (
       <>
-        <br />
-        <br />
-        <br />
-        <br />A fully featured Carrier as a Service platform, enabling CSPs
-        (Communication Service Providers) to deploy unified communications
-        globally with zero capital investment through a cloud-based or on-prem
+        A fully featured <b>Carrier as a Service platform</b>, enabling CSPs
+        (Communication Service Providers) to deploy{" "}
+        <b>unified communications</b> globally with{" "}
+        <b>zero capital investment</b> through a cloud-based or on-prem
         platform.
       </>
     ),
-
     img: "images/svg-9.svg",
+    buttonShow: "no",
     buttonLabel: "Know More",
   },
 ];
@@ -57,6 +65,7 @@ export const splashSlider = [
       </>
     ),
     img: "images/platform.jpg",
+    buttonShow: "yes",
     buttonLabel: "Know More",
   },
   {
@@ -73,6 +82,7 @@ export const splashSlider = [
       </>
     ),
     img: "images/aws-kubernetes.svg",
+    buttonShow: "yes",
     buttonLabel: "Know More",
   },
 ];

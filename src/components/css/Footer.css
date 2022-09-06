@@ -1,5 +1,13 @@
 .custom_footer-container {
-  background-color: #272b34;
+  /* background: url(../../../public/images/sun-tornado.svg) center center
+    no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; */
+  background: url(../../../public/images/endless-constellation2.svg);
+  background-repeat: repeat;
+
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;

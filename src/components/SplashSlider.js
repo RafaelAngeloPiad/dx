@@ -60,13 +60,17 @@ export default function SplashSlider(props) {
                       <h1 className="splash_heading dark">{obj.headline}</h1>
                       <div className="splash_subtitle dark">{obj.subtitle}</div>
 
-                      <Button
-                        buttonSize="custom_btn--wide"
-                        buttonColor="custom_blue"
-                        onClick={nextSlide}
-                      >
-                        {obj.buttonLabel}
-                      </Button>
+                      {obj.buttonShow === "yes" ? (
+                        <Button
+                          buttonSize="custom_btn--wide"
+                          buttonColor="custom_blue"
+                          onClick={nextSlide}
+                        >
+                          {obj.buttonLabel}
+                        </Button>
+                      ) : (
+                        ""
+                      )}
                     </div>
                   </div>
                   <div className="splash_col">
