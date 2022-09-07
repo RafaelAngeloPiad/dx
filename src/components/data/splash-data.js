@@ -45,7 +45,7 @@ export const splash1 = [
         platform.
       </>
     ),
-    img: "images/splashpic2.png",
+    img: "images/splashpic.png",
     buttonShow: "no",
     buttonLabel: "Know More",
   },
