@@ -19,7 +19,7 @@ export const features = [
       "Single sign-on",
       "Encrypted sessions",
       "Dismiss attendees",
-      "COMING SOON: End-to-end encryption",
+      "End-to-end encryption",
     ],
   },
   {
@@ -37,7 +37,7 @@ export const features = [
     Why: [
       "Crystal clear audio",
       "Commuter mode",
-      "Built-in audio with VoIP and Toll",
+      "Built-in VoIP and Toll",
       "Background noise suppression",
     ],
   },
@@ -49,7 +49,7 @@ export const features = [
       "Single sign-on",
       "Encrypted sessions",
       "Dismiss attendees",
-      "COMING SOON: End-to-end encryption",
+      "End-to-end encryption",
     ],
   },
   {
@@ -65,7 +65,7 @@ export const features = [
     Why: [
       "Crystal clear audio",
       "Commuter mode",
-      "Built-in audio with VoIP and Toll",
+      "Built-in VoIP and Toll",
       "Background noise suppression",
     ],
   },

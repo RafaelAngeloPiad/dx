@@ -11,7 +11,7 @@ import {
   homeObjThree,
   homeObjFour,
 } from "../../data/hero-data";
-import { advantage1, advantage2, advantage3 } from "../../data/advantage-data";
+import { advantage } from "../../data/advantage-data";
 import { header } from "../../data/header-data";
 import { features } from "../../data/features-data";
 import { tiles } from "../../data/tiles-data";
@@ -34,13 +34,11 @@ function Home() {
   return (
     <>
       <SplashSlider data={splash1} />
-      <Advantages {...advantage1} />
-      <Advantages {...advantage2} />
-      <Advantages {...advantage3} />
-      <Hero {...homeObjThree} />
-      <Features data={features} />
+      <Advantages data={advantage} />
       <Hero {...homeObjTwo} />
+      <Features data={features} />
       <Tiles data={tiles} />
+      <Hero {...homeObjThree} />
       <Hero {...homeObjFour} />
       <Header2 />
     </>

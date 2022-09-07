@@ -3,54 +3,56 @@ import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 
-function Advantages({
-  lightBg,
-  topLine,
-  lightText,
-  lightTextDesc,
-  headline,
-  description,
-  buttonLabel,
-  img,
-  alt,
-  imgStart,
-}) {
+function Advantages(props) {
   return (
-    <>
-      <div className={lightBg ? "adv-section" : "adv-section dxdarkBg"}>
-        <div
-          className="adv-row"
-          style={{
-            display: "flex",
-            flexDirection: imgStart === "start" ? "row-reverse" : "row",
-          }}
-        >
-          <div className="adv_col">
-            <div className="adv-text-wrapper">
-              <div className="adv_top-line">{topLine}</div>
-              <h1 className={lightText ? "adv_heading" : "adv_heading dark"}>
-                {headline}
-              </h1>
+    <div className="adv-section-wrapper">
+      {props.data
+        ? props.data.map((d, i) => (
+            <div
+              key={`${d.headline}-${i}`}
+              className={d.lightBg ? "adv-section" : "adv-section dxdarkBg"}
+            >
               <div
-                className={lightTextDesc ? "adv-subtitle" : "adv-subtitle dark"}
+                className="adv-row"
+                style={{
+                  display: "flex",
+                  flexDirection: d.imgStart === "start" ? "row-reverse" : "row",
+                }}
               >
-                {description}
+                <div className="adv_col">
+                  <div className="adv-text-wrapper">
+                    <div className="adv_top-line">{d.topLine}</div>
+                    <h1
+                      className={
+                        d.lightText ? "adv_heading" : "adv_heading dark"
+                      }
+                    >
+                      {d.headline}
+                    </h1>
+                    <div
+                      className={
+                        d.lightTextDesc ? "adv-subtitle" : "adv-subtitle dark"
+                      }
+                    >
+                      {d.description}
+                    </div>
+                    <Link to="/">
+                      <Button buttonStyle="custom_btn--words">
+                        {d.buttonLabel} <BsArrowRight />
+                      </Button>
+                    </Link>
+                  </div>
+                </div>
+                <div className="adv_col">
+                  <div className="adv-img-wrapper">
+                    <img src={d.img} alt={d.alt} className="adv-img" />
+                  </div>
+                </div>
               </div>
-              <Link to="/">
-                <Button buttonStyle="custom_btn--words">
-                  {buttonLabel} <BsArrowRight />
-                </Button>
-              </Link>
             </div>
-          </div>
-          <div className="adv_col">
-            <div className="adv-img-wrapper">
-              <img src={img} alt={alt} className="adv-img" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
+          ))
+        : "loading"}
+    </div>
   );
 }
 

@@ -1,5 +1,18 @@
+.adv-section-wrapper {
+  background: url(../../../public/images/mesh3.png) center center no-repeat;
+  background-color: #e5e5e5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .adv-section {
-  padding-bottom: 200px;
+  /* background-color: #f9f9f9; */
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-right: 250px;
   padding-left: 250px;
   color: #fff;
@@ -14,6 +27,7 @@
 }
 
 .adv_col {
+  margin-top: 15px;
   margin-bottom: 15px;
   flex: 1;
 }
@@ -44,9 +58,8 @@
   line-height: 2vmax;
 }
 
-.adv-img-wrapper {
-  padding-bottom: 50px;
-}
+/* .adv-img-wrapper {
+} */
 
 .adv-img {
   width: 80%;
@@ -68,11 +81,12 @@ img {
 @media screen and (max-width: 1100px) {
   .adv-section {
     display: flex;
+    padding-top: 60px;
     padding-bottom: 60px;
     padding-right: 10vmax;
     padding-left: 10vmax;
     justify-content: center;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .adv_col {
@@ -83,6 +97,9 @@ img {
 }
 
 @media screen and (max-width: 400px) {
+  .adv-section {
+    text-align: center;
+  }
   .adv-img-wrapper {
     position: absolute;
     width: 70px;

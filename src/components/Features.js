@@ -20,15 +20,17 @@ function Features(props) {
         </div>
         {props.data
           ? props.data.map((d, i) => (
-              <div className="custom_features" key={`${d.title}-${i}`}>
-                <div className="icon" alt="Service">
-                  {d.icon}
-                </div>
+              <div key={`${d.title}-${i}`} className="custom_features">
                 <div className="features_service-desc">
+                  <div className="icon" alt="Service">
+                    {d.icon}
+                  </div>
                   <h3>
                     <b>{d.title}</b>
                   </h3>
-                  <div>{d.description}</div>
+                  <div>
+                    <h5>{d.description}</h5>
+                  </div>
                   <br />
                   <ul>
                     {d.Why.map((w, idx) => (

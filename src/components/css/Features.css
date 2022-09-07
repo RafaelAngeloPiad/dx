@@ -1,15 +1,22 @@
 #features_services {
+  background: url(../../../public/images/mesh4.png) center center no-repeat;
+  background-color: #e5e5e5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
   /* background-image: linear-gradient(to top right, #fd8567, #ff958c, #ffa7b2); */
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 70px;
+  padding-top: 5vmax;
+  padding-bottom: 5vmax;
+  padding-left: 60px;
+  padding-right: 60px;
   /* color: #fff; */
 }
 
 .custom_features-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(297px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20vmax, 1fr));
   grid-template-rows: auto;
 }
 
@@ -17,9 +24,11 @@
   /* background: rgba(0, 0, 0, 0.2); */
   /* color: black; */
   display: inline-grid;
-  margin: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin: 1.2vmax;
+  padding-left: 1.5vmax;
+  padding-right: 1.5vmax;
+
+  padding-bottom: 2vmax;
   /* background-color: #2b3039; */
   border: 1px solid #e1e1e1;
   -webkit-box-orient: vertical;
@@ -33,17 +42,21 @@
   /* background-color: #2b3039; */
 }
 
+.features_service-desc {
+}
+
 .features_service-desc li {
   list-style: none;
   margin-bottom: 6px;
   margin-left: -30px;
   padding: 0;
+  font-size: 1.3vmax;
 }
 
 .features_service-desc li:before {
-  color: #fff;
+  /* color: #fff; */
   content: "✓";
-  font-size: 11px;
+  font-size: 1vmax;
   font-weight: 300;
   padding-right: 8px;
 }
@@ -51,14 +64,7 @@
 .custom_features:hover {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
-  cursor: pointer;
-}
-
-#features_services h2 {
-  color: #39ff14;
-  font-weight: 700;
-  letter-spacing: 1.4px;
-  font-size: 48px;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.9);
 }
 
 .features-title {
@@ -67,15 +73,25 @@
 }
 .features-title h1 {
   padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 3vmax;
+}
+.features-title h4 {
+  font-size: 1.5vmax;
 }
 
 #features_services h3 {
   font-weight: 500;
   padding: 5px 0;
+  font-size: 2.5vmax;
+}
+
+#features_services h5 {
+  font-size: 1.4vmax;
 }
 
 .icon {
-  font-size: 50px;
+  font-size: 4vmax;
 }
 
 @media screen and (max-width: 960px) {

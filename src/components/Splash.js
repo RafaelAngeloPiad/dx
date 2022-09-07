@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 function Splash({ headline, subtitle, imgStart, img, buttonLabel }) {
   return (
     <>
+      {/* <div><img src={process.env.PUBLIC_URL + /></div> */}
       <div className="splash-section">
         <div
           className="splash_row"

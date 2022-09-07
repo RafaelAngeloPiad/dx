@@ -4,11 +4,11 @@ export const splash1 = [
     headline: (
       <>
         <p></p>
-        <span>Connect.</span>
+        <span className="mainHeadline">Connect.</span>
         <br />
-        <span>Communicate.</span>
+        <span className="mainHeadline">Communicate.</span>
         <br />
-        <span>Collaborate.</span>
+        <span className="mainHeadline">Collaborate.</span>
       </>
     ),
     subtitle: (
@@ -20,7 +20,7 @@ export const splash1 = [
         <br />
       </>
     ),
-    img: "images/svg-9.svg",
+    img: "images/splashpic.png",
     buttonShow: "yes",
     buttonLabel: "Know More",
   },
@@ -29,11 +29,11 @@ export const splash1 = [
     headline: (
       <>
         <p></p>
-        <span>Connect.</span>
+        <span className="mainHeadline">Connect.</span>
         <br />
-        <span>Communicate.</span>
+        <span className="mainHeadline">Communicate.</span>
         <br />
-        <span>Collaborate.</span>
+        <span className="mainHeadline">Collaborate.</span>
       </>
     ),
     subtitle: (
@@ -45,7 +45,7 @@ export const splash1 = [
         platform.
       </>
     ),
-    img: "images/svg-9.svg",
+    img: "images/splashpic2.png",
     buttonShow: "no",
     buttonLabel: "Know More",
   },

@@ -38,7 +38,7 @@ export default function SplashSlider(props) {
       {props.data.map((obj, index) => {
         return (
           <div
-            key={obj.id}
+            key={`${obj.headline}-${index}`}
             className={
               slideIndex === index + 1
                 ? "Splashslide active-anim"
@@ -88,8 +88,8 @@ export default function SplashSlider(props) {
           </div>
         );
       })}
-      <div className="Splashslide-control-panel">
-        {/* <button onClick={nextSlide} className={"btn-Splashslide next"}>
+      {/* <div className="Splashslide-control-panel"> */}
+      {/* <button onClick={nextSlide} className={"btn-Splashslide next"}>
           <img src={rightArrow} alt="Slider Right" />
         </button>
 
@@ -97,7 +97,7 @@ export default function SplashSlider(props) {
           <img src={leftArrow} alt="Slider Left" />
         </button> */}
 
-        <div className="container-dots">
+      {/* <div className="container-dots">
           {Array.from({ length: 2 }).map((item, index) => (
             <div
               key={index}
@@ -106,7 +106,7 @@ export default function SplashSlider(props) {
             ></div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
