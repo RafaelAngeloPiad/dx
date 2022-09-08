@@ -81,7 +81,7 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="custom_navbar-btn">
-                  <Link to="/sign-up">
+                  <Link to="/learn-more">
                     <ButtonDx buttonStyle="rounded-dx">Learn More</ButtonDx>
                   </Link>
                 </li>

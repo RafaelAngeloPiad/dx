@@ -18,7 +18,7 @@ function Splash({ headline, subtitle, imgStart, img, buttonLabel }) {
             <div className="splash-text-wrapper">
               <h1 className="splash_heading dark">{headline}</h1>
               <div className="splash_subtitle dark">{subtitle}</div>
-              <Link to="/sign-up">
+              <Link to="/learn-more">
                 <Button buttonSize="custom_btn--wide" buttonColor="custom_blue">
                   {buttonLabel}
                 </Button>

@@ -40,7 +40,7 @@ function Hero({
                 >
                   {description}
                 </div>
-                <Link to="/sign-up">
+                <Link to="/learn-more">
                   <ButtonDx>{buttonLabel}</ButtonDx>
                 </Link>
               </div>
