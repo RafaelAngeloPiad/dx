@@ -1,7 +1,6 @@
 import "./css/ProductCards.css";
 
 const ProductCards = (props) => {
-  console.log(props.data);
   return (
     <div className="product-cards_container">
       <div className="c_section-title">

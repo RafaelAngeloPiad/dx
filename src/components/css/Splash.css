@@ -1,7 +1,7 @@
 .splash-section {
   color: #fff;
   padding-top: 20px;
-  padding-left: 80px;
+  padding-left: 60px;
 }
 
 .splash_heading {
@@ -30,7 +30,7 @@
 
 .mainHeadline {
   color: #fe8464;
-  text-shadow: 1.5px 1.5px #a84420;
+  /* text-shadow: 1.5px 1.5px #a84420; */
 }
 
 .splash_subtitle {
@@ -75,11 +75,11 @@
 
 @media screen and (max-width: 768px) {
   .splash_heading {
-    font-size: 40px;
+    font-size: 8vh;
   }
-
-  .splash-text-wrapper {
-    padding-bottom: 65px;
+  .splash_subtitle {
+    font-size: 30px;
+    line-height: 5.5vmax;
   }
 
   .splash_col {
@@ -88,6 +88,12 @@
   }
   .splash-img {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .splash_heading {
+    font-size: 6vh;
   }
 }
 

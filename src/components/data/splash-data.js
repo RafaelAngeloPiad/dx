@@ -4,11 +4,11 @@ export const splash1 = [
     headline: (
       <>
         <p></p>
-        <span className="mainHeadline">Connect.</span>
+        <span className="mainHeadline Headline1">Connect.</span>
         <br />
-        <span className="mainHeadline">Communicate.</span>
+        <span className="mainHeadline Headline2">Communicate.</span>
         <br />
-        <span className="mainHeadline">Collaborate.</span>
+        <span className="mainHeadline Headline3">Collaborate.</span>
       </>
     ),
     subtitle: (
@@ -16,13 +16,11 @@ export const splash1 = [
         Enabling Communication Service Providers to deploy{" "}
         <b>unified communications</b> globally with{" "}
         <b>zero capital investment.</b>
-        <br />
-        <br />
       </>
     ),
-    img: "images/splashpic.png",
+    img: "images/splashpic6.png",
     buttonShow: "yes",
-    buttonLabel: "Know More",
+    buttonLabel: "Read More",
   },
   {
     imgStart: "",
@@ -45,7 +43,7 @@ export const splash1 = [
         platform.
       </>
     ),
-    img: "images/splashpic.png",
+    img: "images/splashpic3.png",
     buttonShow: "no",
     buttonLabel: "Know More",
   },

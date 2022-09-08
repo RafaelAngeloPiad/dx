@@ -1,5 +1,6 @@
 import "./css/Advantages.css";
 import { Button } from "./Button";
+import { ButtonDx } from "./ButtonDx";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 
@@ -37,9 +38,9 @@ function Advantages(props) {
                       {d.description}
                     </div>
                     <Link to="/">
-                      <Button buttonStyle="custom_btn--words">
-                        {d.buttonLabel} <BsArrowRight />
-                      </Button>
+                      <ButtonDx buttonStyle="arrow-dx">
+                        {d.buttonLabel}
+                      </ButtonDx>
                     </Link>
                   </div>
                 </div>

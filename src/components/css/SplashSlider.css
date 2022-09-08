@@ -1,7 +1,15 @@
 .container-splashSlider {
+  margin-top: -80px;
+  padding-top: 80px;
   height: 50vmax;
   position: relative;
   overflow: hidden;
+  background: url(../../../public/images/earthnet.jpg) center center no-repeat;
+  background-color: #e5e5e5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   /* background: url(../../../public/images/endless-constellation4.svg);
   background-repeat: repeat; */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -86,6 +94,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .container-splashSlider {
+    height: 60vmax;
+  }
   .btn-Splashslide {
     display: none;
   }
@@ -109,6 +120,10 @@
     padding-left: 0px;
     padding-right: 0px;
   }
+
+  /* .container-splashSlider {
+    height: 90px;
+  } */
 }
 
 @media screen and (max-width: 300px) {

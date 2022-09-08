@@ -13,8 +13,7 @@ export const features = [
   {
     icon: <MdAccountBalance />,
     title: "Connect.",
-    description:
-      "Social connection can lower anxiety and depression, help us regulate our emotions.",
+    description: "Social connection can lower anxiety and depression.",
     Why: [
       "Single sign-on",
       "Encrypted sessions",
@@ -32,8 +31,7 @@ export const features = [
   {
     icon: <MdApi />,
     title: "Collaborate.",
-    description:
-      "Collaboration improves the way your team works together and problem solves.",
+    description: "Collaboration improves the way your team works.",
     Why: [
       "Crystal clear audio",
       "Commuter mode",

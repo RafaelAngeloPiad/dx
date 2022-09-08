@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./css/Navbar.css";
+import { ButtonDx } from "./ButtonDx";
 import { FaBars, FaTimes } from "react-icons/fa"; //https://react-icons.github.io/react-icons
 import { IconContext } from "react-icons/lib";
 import Navtop from "./Navtop";
@@ -13,15 +14,16 @@ function Navbar() {
   const [button, setButton] = useState(true);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+  const [transparency, setTransparency] = useState(true);
   // const [dropdown, setDropdown] = useState(false);
 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
+  // const showButton = () => {
+  //   if (window.innerWidth <= 960) {
+  //     setButton(false);
+  //   } else {
+  //     setButton(true);
+  //   }
+  // };
 
   // const onMouseEnter = () => {
   //   if (window.innerWidth < 960) {
@@ -39,17 +41,30 @@ function Navbar() {
   //   }
   // };
 
-  useEffect(() => {
-    showButton();
-    window.addEventListener("resize", showButton);
-  }, []);
+  // useEffect(() => {
+  //   showButton();
+  //   window.addEventListener("resize", showButton);
+  // }, []);
+
+  const toggleTransparency = () => {
+    console.log(window.scrollY);
+    if (window.scrollY >= 70) {
+      setTransparency(false);
+    } else {
+      setTransparency(true);
+    }
+  };
+
+  window.addEventListener("scroll", toggleTransparency);
 
   return (
     <>
       <div className="nav-whole-wrapper">
         <Navtop />
         <IconContext.Provider value={{ color: "#000000" }}>
-          <nav className="custom_navbar">
+          <nav
+            className={transparency ? "custom_navbar" : "custom_navbar active"}
+          >
             <div className="custom_navbar-container">
               <Link
                 to="/"
@@ -106,22 +121,11 @@ function Navbar() {
                 <li className="custom_navbar-btn">
                   {button ? (
                     <Link to="/sign-up">
-                      <Button
-                        buttonSize="custom_btn--small"
-                        buttonColor="custom_blue"
-                      >
-                        Learn More
-                      </Button>
+                      <ButtonDx buttonStyle="rounded-dx">Learn More</ButtonDx>
                     </Link>
                   ) : (
                     <Link to="/sign-up">
-                      <Button
-                        buttonSize="custom_btn--mobile"
-                        buttonColor="custom_blue"
-                        onClick={closeMobileMenu}
-                      >
-                        Learn More
-                      </Button>
+                      <button>Learn More</button>
                     </Link>
                   )}
                 </li>

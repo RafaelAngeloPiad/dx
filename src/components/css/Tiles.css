@@ -101,4 +101,8 @@
   .s_tiles_container {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
+  #services_t h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
 }

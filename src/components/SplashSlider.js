@@ -1,6 +1,7 @@
 import { useState } from "react";
 // import { Link } from "react-router-dom";
 import { Button } from "./Button";
+import { ButtonDx } from "./ButtonDx";
 import "./css/SplashSlider.css";
 // import leftArrow from "./icons/left-arrow.svg";
 // import rightArrow from "./icons/right-arrow.svg";
@@ -61,13 +62,17 @@ export default function SplashSlider(props) {
                       <div className="splash_subtitle dark">{obj.subtitle}</div>
 
                       {obj.buttonShow === "yes" ? (
-                        <Button
-                          buttonSize="custom_btn--wide"
-                          buttonColor="custom_blue"
-                          onClick={nextSlide}
-                        >
+                        // <Button
+                        //   buttonSize="custom_btn--wide"
+                        //   buttonColor="custom_blue"
+                        //   onClick={nextSlide}
+                        // >
+                        //   {obj.buttonLabel}
+                        // </Button>
+
+                        <ButtonDx buttonStyle="rounded-dx" onClick={nextSlide}>
                           {obj.buttonLabel}
-                        </Button>
+                        </ButtonDx>
                       ) : (
                         ""
                       )}

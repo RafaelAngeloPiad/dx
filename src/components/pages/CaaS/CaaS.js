@@ -6,10 +6,12 @@ import { product_card } from "../../data/productcards-data";
 import { headerProduct2 } from "../../data/header-data";
 import SplashSlider from "../../SplashSlider";
 import { splashSlider } from "../../data/splash-data";
+import ScrollToTop from "../../ScrollToTop";
 
-function Products() {
+function CaaS() {
   return (
     <>
+      <ScrollToTop />
       <SplashSlider data={splashSlider} />
       <Header3 data={headerProduct2} />
       <Hero {...productHero} />
@@ -19,4 +21,4 @@ function Products() {
   );
 }
 
-export default Products;
+export default CaaS;
