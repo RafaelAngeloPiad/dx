@@ -1,4 +1,57 @@
 .highlights-container {
   background-color: #191919;
-  height: 60vh;
+
+  /* background: linear-gradient(180deg, #cd067c -115.12%, #ff6e05 177.33%),
+    linear-gradient(0deg, #121212, #121212); */
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.highlights-container h1 {
+  color: #fff;
+  font-size: 10vh;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+.highlights-container h3 {
+  color: #767676;
+  font-size: 3.5vh;
+  font-weight: 600;
+  padding-bottom: 60px;
+}
+
+.highlight-box-wrapper h1 {
+  color: #fff;
+}
+
+.highlight-box-wrapper {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(276px, 1fr));
+}
+
+.highlight-box {
+  display: inline-grid;
+  font-size: 10vh;
+
+  padding-right: 50px;
+}
+
+.highlight-icon-wrapper {
+  color: #fff;
+  font-size: 10vh;
+}
+
+.highlight-heading {
+  color: #fff;
+  font-size: 5vh;
+}
+
+.highlight-subtitle {
+  color: #767676;
+  font-size: 2.8vh;
 }
