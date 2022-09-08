@@ -1,6 +1,5 @@
-import { Button } from "./Button";
+import { ButtonDx } from "./ButtonDx";
 import "./css/Features.css";
-import { BsArrowRight } from "react-icons/bs";
 function Features(props) {
   return (
     <div id="features_services" className="dark">
@@ -13,10 +12,7 @@ function Features(props) {
             service in record time. You'll dig our drag-and-drop Call Flow
             Builder, too.
           </h4>
-          <Button buttonStyle="custom_btn--words">
-            See More
-            <BsArrowRight />
-          </Button>
+          <ButtonDx buttonStyle="arrow-dx">See More</ButtonDx>
         </div>
         {props.data
           ? props.data.map((d, i) => (

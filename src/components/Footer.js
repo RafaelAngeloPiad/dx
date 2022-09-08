@@ -1,5 +1,5 @@
 import "./css/Footer.css";
-import { Button } from "./Button";
+import { ButtonDx } from "./ButtonDx";
 import { Link } from "react-router-dom";
 import {
   FaFacebook,
@@ -27,7 +27,7 @@ function Footer() {
               type="email"
               placeholder="Your Email"
             />
-            <Button buttonStyle="custom_btn--outline">Subscribe</Button>
+            <ButtonDx>Subscribe</ButtonDx>
           </form>
         </div>
       </section>

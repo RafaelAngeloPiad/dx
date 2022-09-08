@@ -1,8 +1,6 @@
 import "./css/Advantages.css";
-import { Button } from "./Button";
 import { ButtonDx } from "./ButtonDx";
 import { Link } from "react-router-dom";
-import { BsArrowRight } from "react-icons/bs";
 
 function Advantages(props) {
   return (

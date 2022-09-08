@@ -1,4 +1,3 @@
-import "./css/Button.css";
 import "./css/ButtonDx.scss";
 
 const STYLES = ["rounded-dx", "arrow-dx", "outline-dx"];
@@ -40,7 +39,7 @@ export const ButtonDx = ({
         {checkButtonStyle === "rounded-dx" && children}
         {checkButtonStyle === "arrow-dx" && (
           <>
-            <span class="hover-underline-animation"> {children} </span>
+            <span className="hover-underline-animation"> {children} </span>
             <svg
               viewBox="0 0 46 16"
               height="10"

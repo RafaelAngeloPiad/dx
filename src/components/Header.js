@@ -1,4 +1,3 @@
-import { Button } from "./Button";
 import "./css/Header.css";
 
 function Header(props) {

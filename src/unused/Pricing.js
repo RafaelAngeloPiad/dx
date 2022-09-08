@@ -1,4 +1,4 @@
-import { Button } from "./Button";
+import { Button } from "../components/Button";
 import "./css/Pricing.css";
 import { FaFire } from "react-icons/fa";
 import { BsXDiamondFill } from "react-icons/bs";

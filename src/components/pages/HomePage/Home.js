@@ -1,18 +1,13 @@
 import Hero from "../../Hero";
-import Splash from "../../Splash";
+
 import Header2 from "../../Header2";
 import Tiles from "../../Tiles";
-import Header from "../../Header";
+
 import Features from "../../Features";
 import Advantages from "../../Advantages";
-import {
-  Headliner,
-  homeObjTwo,
-  homeObjThree,
-  homeObjFour,
-} from "../../data/hero-data";
+import { homeObjTwo, homeObjThree, homeObjFour } from "../../data/hero-data";
 import { advantage } from "../../data/advantage-data";
-import { header } from "../../data/header-data";
+
 import { features } from "../../data/features-data";
 import { tiles } from "../../data/tiles-data";
 import { splash1 } from "../../data/splash-data";

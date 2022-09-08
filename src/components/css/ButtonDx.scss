@@ -13,6 +13,7 @@ $color: #3b8fbe; //#fe8464; //
   position: relative;
   overflow: hidden;
   z-index: 1;
+  box-shadow: inset 0 0 0 30px darken($color, 15%);
   &:after {
     content: "";
     position: absolute;
@@ -46,6 +47,7 @@ $color: #3b8fbe; //#fe8464; //
 
 /* From uiverse.io by @alexmaracinaru */
 .arrow-dx {
+  margin-left: 20px;
   border: none;
   background: none;
   color: #3b8fbe;

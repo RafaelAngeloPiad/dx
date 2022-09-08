@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { Button } from "./Button";
+import { useState } from "react";
+
 import { Link } from "react-router-dom";
 import "./css/Navbar.css";
 import { ButtonDx } from "./ButtonDx";
@@ -11,7 +11,7 @@ import Navtop from "./Navtop";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  // const [button, setButton] = useState(true);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
   const [transparency, setTransparency] = useState(true);
@@ -119,15 +119,9 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="custom_navbar-btn">
-                  {button ? (
-                    <Link to="/sign-up">
-                      <ButtonDx buttonStyle="rounded-dx">Learn More</ButtonDx>
-                    </Link>
-                  ) : (
-                    <Link to="/sign-up">
-                      <button>Learn More</button>
-                    </Link>
-                  )}
+                  <Link to="/sign-up">
+                    <ButtonDx buttonStyle="rounded-dx">Learn More</ButtonDx>
+                  </Link>
                 </li>
               </ul>
             </div>

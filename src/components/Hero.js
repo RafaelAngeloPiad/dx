@@ -1,5 +1,5 @@
 import "./css/Hero.css";
-import { Button } from "./Button";
+import { ButtonDx } from "./ButtonDx";
 import { Link } from "react-router-dom";
 
 function Hero({
@@ -41,12 +41,7 @@ function Hero({
                   {description}
                 </div>
                 <Link to="/sign-up">
-                  <Button
-                    buttonSize="custom_btn--wide"
-                    buttonColor="custom_blue"
-                  >
-                    {buttonLabel}
-                  </Button>
+                  <ButtonDx>{buttonLabel}</ButtonDx>
                 </Link>
               </div>
             </div>

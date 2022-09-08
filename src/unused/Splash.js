@@ -1,5 +1,5 @@
 import "./css/Splash.css";
-import { Button } from "./Button";
+import { Button } from "../components/Button";
 import { Link } from "react-router-dom";
 
 function Splash({ headline, subtitle, imgStart, img, buttonLabel }) {

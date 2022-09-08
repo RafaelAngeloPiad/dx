@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "./Button";
+import { ButtonDx } from "./ButtonDx";
 import "./css/Header2.css";
 
 function HeroSection() {
@@ -10,13 +10,7 @@ function HeroSection() {
         Additional features, storage, and support start at just one low price.
       </p>
       <div className="hero-btns">
-        <Button
-          className="btns"
-          buttonStyle="custom_btn--primary"
-          buttonSize="custom_btn--large"
-        >
-          GET STARTED
-        </Button>
+        <ButtonDx>GET STARTED</ButtonDx>
       </div>
     </div>
   );

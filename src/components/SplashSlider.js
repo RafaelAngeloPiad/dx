@@ -1,8 +1,8 @@
 import { useState } from "react";
 // import { Link } from "react-router-dom";
-import { Button } from "./Button";
 import { ButtonDx } from "./ButtonDx";
 import "./css/SplashSlider.css";
+import "./css/Splash.css";
 // import leftArrow from "./icons/left-arrow.svg";
 // import rightArrow from "./icons/right-arrow.svg";
 
@@ -21,18 +21,18 @@ export default function SplashSlider(props) {
     }
   };
 
-  const prevSlide = () => {
-    if (slideIndex !== 1) {
-      setSlideIndex(slideIndex - 1);
-    } else if (slideIndex === 1) {
-      setSlideIndex(props.data.length);
-    }
-  };
+  // const prevSlide = () => {
+  //   if (slideIndex !== 1) {
+  //     setSlideIndex(slideIndex - 1);
+  //   } else if (slideIndex === 1) {
+  //     setSlideIndex(props.data.length);
+  //   }
+  // };
 
-  const moveDot = (index) => {
-    setSlideIndex(index);
-    console.log(index);
-  };
+  // const moveDot = (index) => {
+  //   setSlideIndex(index);
+  //   console.log(index);
+  // };
 
   return (
     <div className="container-splashSlider">
