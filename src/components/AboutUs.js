@@ -2,8 +2,6 @@ import { useRef } from "react";
 import "./css/About.css";
 
 function About(props) {
-  const aboutRef = useRef();
-
   return (
     <div id="about">
       <div className="container">

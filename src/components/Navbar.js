@@ -6,45 +6,12 @@ import { ButtonDx } from "./ButtonDx";
 import { FaBars, FaTimes } from "react-icons/fa"; //https://react-icons.github.io/react-icons
 import { IconContext } from "react-icons/lib";
 import Navtop from "./Navtop";
-// import { DropdownItems } from "./data/dropdown-data";
-// import Dropdown from "./Dropdown";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  // const [button, setButton] = useState(true);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
   const [transparency, setTransparency] = useState(true);
-  // const [dropdown, setDropdown] = useState(false);
-
-  // const showButton = () => {
-  //   if (window.innerWidth <= 960) {
-  //     setButton(false);
-  //   } else {
-  //     setButton(true);
-  //   }
-  // };
-
-  // const onMouseEnter = () => {
-  //   if (window.innerWidth < 960) {
-  //     setDropdown(false);
-  //   } else {
-  //     setDropdown(true);
-  //   }
-  // };
-
-  // const onMouseLeave = () => {
-  //   if (window.innerWidth < 960) {
-  //     setDropdown(false);
-  //   } else {
-  //     setDropdown(false);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   showButton();
-  //   window.addEventListener("resize", showButton);
-  // }, []);
 
   const toggleTransparency = () => {
     console.log(window.scrollY);
@@ -85,11 +52,7 @@ function Navbar() {
                   click ? "custom_navbar-menu active" : "custom_navbar-menu"
                 }
               >
-                <li
-                  className="custom_navbar-item"
-                  // onMouseEnter={onMouseEnter}
-                  // onMouseLeave={onMouseLeave}
-                >
+                <li className="custom_navbar-item">
                   <Link
                     to="/"
                     className="custom_navbar-links"
@@ -97,7 +60,6 @@ function Navbar() {
                   >
                     Home
                   </Link>
-                  {/* {dropdown && <Dropdown data={DropdownItems} />} */}
                 </li>
 
                 <li className="custom_navbar-item">

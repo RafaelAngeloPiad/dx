@@ -1,10 +1,8 @@
 import { useState } from "react";
-// import { Link } from "react-router-dom";
+
 import { ButtonDx } from "./ButtonDx";
 import "./css/SplashSlider.css";
 import "./css/Splash.css";
-// import leftArrow from "./icons/left-arrow.svg";
-// import rightArrow from "./icons/right-arrow.svg";
 
 export default function SplashSlider(props) {
   const [slideIndex, setSlideIndex] = useState(1);
@@ -62,14 +60,6 @@ export default function SplashSlider(props) {
                       <div className="splash_subtitle dark">{obj.subtitle}</div>
 
                       {obj.buttonShow === "yes" ? (
-                        // <Button
-                        //   buttonSize="custom_btn--wide"
-                        //   buttonColor="custom_blue"
-                        //   onClick={nextSlide}
-                        // >
-                        //   {obj.buttonLabel}
-                        // </Button>
-
                         <ButtonDx buttonStyle="rounded-dx" onClick={nextSlide}>
                           {obj.buttonLabel}
                         </ButtonDx>
@@ -93,25 +83,6 @@ export default function SplashSlider(props) {
           </div>
         );
       })}
-      {/* <div className="Splashslide-control-panel"> */}
-      {/* <button onClick={nextSlide} className={"btn-Splashslide next"}>
-          <img src={rightArrow} alt="Slider Right" />
-        </button>
-
-        <button onClick={prevSlide} className={"btn-Splashslide prev"}>
-          <img src={leftArrow} alt="Slider Left" />
-        </button> */}
-
-      {/* <div className="container-dots">
-          {Array.from({ length: 2 }).map((item, index) => (
-            <div
-              key={index}
-              onClick={() => moveDot(index + 1)}
-              className={slideIndex === index + 1 ? "dot active" : "dot"}
-            ></div>
-          ))}
-        </div>
-      </div> */}
     </div>
   );
 }
