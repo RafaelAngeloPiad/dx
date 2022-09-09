@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/Highlights.css";
+import { iconStyle } from "./data/global-data.js";
 import {
   MdAssignment,
   MdAccessibility,
@@ -15,10 +16,13 @@ function Highlights() {
     <div className="highlights-container">
       <h1>Working Better, Together</h1>
       <h3>Trusted by 95% of Fortune 500 companies.</h3>
+
+      {iconStyle.gradientSvg}
+
       <div className="highlight-box-wrapper">
         <div className="highlight-box">
           <div className="highlight-icon-wrapper">
-            <MdAssignment />
+            <MdAssignment style={{ fill: iconStyle.gradientStyle }} />
           </div>
           <h2 className="highlight-heading">Flexible</h2>
           <h4 className="highlight-subtitle">
@@ -28,7 +32,7 @@ function Highlights() {
         </div>
         <div className="highlight-box">
           <div className="highlight-icon-wrapper">
-            <MdAssignment />
+            <MdAssignment style={{ fill: iconStyle.gradientStyle }} />
           </div>
           <h2 className="highlight-heading">Flexible</h2>
           <h4 className="highlight-subtitle">
@@ -38,7 +42,7 @@ function Highlights() {
         </div>
         <div className="highlight-box">
           <div className="highlight-icon-wrapper">
-            <MdAssignment />
+            <MdAssignment style={{ fill: iconStyle.gradientStyle }} />
           </div>
           <h2 className="highlight-heading">Flexible</h2>
           <h4 className="highlight-subtitle">

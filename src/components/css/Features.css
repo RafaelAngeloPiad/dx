@@ -17,7 +17,7 @@
 
 .custom_features-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20vmax, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25vmax, 1fr));
   grid-template-rows: auto;
 }
 
@@ -41,8 +41,8 @@
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   /* background-color: #2b3039; */
-  background: rgba(0, 0, 0, 0.02);
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  /* background: rgba(0, 0, 0, 0.02);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1); */
 }
 
 /* .features_service-desc {
