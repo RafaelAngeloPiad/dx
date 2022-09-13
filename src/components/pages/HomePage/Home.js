@@ -2,7 +2,7 @@ import Hero from "../../Hero";
 
 import Header2 from "../../Header2";
 import Tiles from "../../Tiles";
-
+import PhotoSplash from "../../PhotoSplash";
 import Features from "../../Features";
 import Advantages from "../../Advantages";
 import { homeObjTwo, homeObjThree, homeObjFour } from "../../data/hero-data";
@@ -18,7 +18,10 @@ import Highlights from "../../Highlights";
 function Home() {
   return (
     <>
+    
       <ScrollToTop />
+
+      {/* <PhotoSplash/> */}
       <SplashSlider data={splash1} />
       <Highlights />
       <Advantages data={advantage} />

@@ -1,23 +1,32 @@
 .container-splashSlider {
-  margin-top: -80px;
   padding-top: 80px;
+  margin-top: -80px;
   height: 50vmax;
   position: relative;
   overflow: hidden;
-  background: url(../../../public/images/earthnet.jpg) center center no-repeat;
+  /* background: url(../../../public/images/earthnet.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
   /* background: url(../../../public/images/endless-constellation4.svg);
   background-repeat: repeat; */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); */
 }
 
+.Splashslide-background{
+  background: url(../../../public/images/ginger2.jpg) center center no-repeat;
+  background-color: #e5e5e5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 .Splashslide {
-  padding-top: 20px;
+
   position: absolute;
   opacity: 0;
   transition: opacity ease-in-out 0.4s;

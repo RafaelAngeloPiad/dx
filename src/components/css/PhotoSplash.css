@@ -1,0 +1,20 @@
+
+.photoSplash{
+    margin-top: -80px;
+    
+  }
+
+  .photoSplash-img-wrapper{
+    box-shadow: inset 100px 100px 100px rgba(0, 0, 0, 0.5);
+  }
+
+  .photoSplash::after
+{
+ content: '';
+ display: block;
+ height: 100%;
+ position: absolute;
+ top: 0;
+ width: 100%;
+}
+

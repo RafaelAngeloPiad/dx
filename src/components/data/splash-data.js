@@ -1,5 +1,6 @@
 export const splash1 = [
   {
+    background: "yes",
     imgStart: "",
     headline: (
       <>
@@ -13,12 +14,13 @@ export const splash1 = [
     ),
     subtitle: (
       <>
+      
         Enabling Communication Service Providers to deploy{" "}
         <b>unified communications</b> globally with{" "}
         <b>zero capital investment.</b>
       </>
     ),
-    img: "images/splashpic6.png",
+    img: "images/none.png",
     buttonShow: "yes",
     buttonLabel: "Read More",
   },

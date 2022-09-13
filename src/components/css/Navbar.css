@@ -6,6 +6,7 @@
 
 .custom_navbar {
   background: transparent;
+  background: #fff;
   height: 70px;
   display: flex;
   justify-content: center;
@@ -17,7 +18,7 @@
 }
 
 .custom_navbar.active {
-  background: #fff;
+  
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
