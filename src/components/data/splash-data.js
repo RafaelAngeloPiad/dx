@@ -5,11 +5,11 @@ export const splash1 = [
     headline: (
       <>
         <p></p>
-        <span className="mainHeadline Headline1">Connect.</span>
+        <span className="mainHeadline">Connect.</span>
         <br />
-        <span className="mainHeadline Headline2">Communicate.</span>
+        <span className="mainHeadline">Communicate.</span>
         <br />
-        <span className="mainHeadline Headline3">Collaborate.</span>
+        <span className="mainHeadline">Collaborate.</span>
       </>
     ),
     subtitle: (

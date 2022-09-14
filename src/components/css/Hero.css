@@ -98,6 +98,9 @@
     max-width: 100%;
     flex-basis: 100%;
   }
+  .hero-img-wrapper {
+    margin-left: 0px;
+  }
 }
 
 @media screen and (max-width: 500px) {
