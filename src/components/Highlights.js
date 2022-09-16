@@ -5,10 +5,6 @@ import {
   MdAssignment,
   MdAccessibility,
   MdAccountBalanceWallet,
-  MdAccountBalance,
-  MdAccountCircle,
-  MdAllInbox,
-  MdApi,
 } from "react-icons/md";
 
 function Highlights() {
@@ -32,7 +28,7 @@ function Highlights() {
         </div>
         <div className="highlight-box">
           <div className="highlight-icon-wrapper">
-            <MdAssignment style={{ fill: iconStyle.gradientStyle }} />
+            <MdAccountBalanceWallet style={{ fill: iconStyle.gradientStyle }} />
           </div>
           <h2 className="highlight-heading">Flexible</h2>
           <h4 className="highlight-subtitle">
@@ -42,7 +38,7 @@ function Highlights() {
         </div>
         <div className="highlight-box">
           <div className="highlight-icon-wrapper">
-            <MdAssignment style={{ fill: iconStyle.gradientStyle }} />
+            <MdAccessibility style={{ fill: iconStyle.gradientStyle }} />
           </div>
           <h2 className="highlight-heading">Flexible</h2>
           <h4 className="highlight-subtitle">

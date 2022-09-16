@@ -1,12 +1,11 @@
-import { useRef } from "react";
-import "./css/About.css";
+import "./css/CompanyDesc.css";
 
-function About(props) {
+function CompanyDesc(props) {
   return (
-    <div id="about">
+    <div id="about" className="about-container">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-md-6">
+          <div className="col-sm-12 col-md-6">
             {" "}
             <img
               src={process.env.PUBLIC_URL + `/images/about.jpg`}
@@ -14,7 +13,7 @@ function About(props) {
               alt=""
             />{" "}
           </div>
-          <div className="col-xs-12 col-md-6">
+          <div className="col-sm-12 col-md-6">
             <div className="about-text">
               <h2>About Us</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
@@ -47,4 +46,4 @@ function About(props) {
   );
 }
 
-export default About;
+export default CompanyDesc;

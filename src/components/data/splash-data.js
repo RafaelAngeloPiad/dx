@@ -1,33 +1,46 @@
+import Animate from "./animator/Animate.js";
+
 export const splash1 = [
   {
-    background: "yes",
+    background: "background1",
     imgStart: "",
     headline: (
       <>
+        <br />
         <p></p>
-        <span className="mainHeadline">Connect.</span>
+        <Animate animateClass="fade1">
+          <span className="mainHeadline">Connect.</span>
+        </Animate>
+
         <br />
-        <span className="mainHeadline">Communicate.</span>
+        <Animate animateClass="fade2">
+          <span className="mainHeadline">Communicate.</span>
+        </Animate>
         <br />
-        <span className="mainHeadline">Collaborate.</span>
+        <Animate animateClass="fade3">
+          <span className="mainHeadline">Collaborate.</span>
+        </Animate>
       </>
     ),
     subtitle: (
-      <>
-      
-        Enabling Communication Service Providers to deploy{" "}
-        <b>unified communications</b> globally with{" "}
-        <b>zero capital investment.</b>
-      </>
+      <Animate animateClass="fade4">
+        <div>
+          Enabling Communication Service Providers to deploy{" "}
+          <b>unified communications</b> globally with{" "}
+          <b>zero capital investment.</b>
+        </div>
+      </Animate>
     ),
     img: "images/none.png",
     buttonShow: "yes",
     buttonLabel: "Read More",
   },
   {
+    background: "yes",
     imgStart: "",
     headline: (
       <>
+        <br />
         <p></p>
         <span className="mainHeadline">Connect.</span>
         <br />
@@ -45,7 +58,7 @@ export const splash1 = [
         platform.
       </>
     ),
-    img: "images/splashpic3.png",
+    img: "images/none.png",
     buttonShow: "no",
     buttonLabel: "Know More",
   },
@@ -53,9 +66,16 @@ export const splash1 = [
 
 export const splashSlider = [
   {
+    background: "background2",
     id: "1",
     imgStart: "",
-    headline: <>a platform ready for unified communications</>,
+    headline: (
+      <>
+        <br />
+        <br />
+        Platform for unified communications
+      </>
+    ),
     subtitle: (
       <>
         Dialogx CaaS is a cloud-based carrier infrastructure platform, designed
@@ -64,14 +84,21 @@ export const splashSlider = [
         solution.
       </>
     ),
-    img: "images/platform.jpg",
+    img: "images/none.png",
     buttonShow: "yes",
     buttonLabel: "Know More",
   },
   {
+    background: "background2",
     id: "2",
     imgStart: "",
-    headline: <>Communications Services for your needs</>,
+    headline: (
+      <>
+        <br />
+        <br />
+        Communication Services for you
+      </>
+    ),
     subtitle: (
       <>
         Built on Kubernetes and driven by AWS' scalable infrastructure, DXP
@@ -81,7 +108,7 @@ export const splashSlider = [
         <br />
       </>
     ),
-    img: "images/aws-kubernetes.svg",
+    img: "images/none.png",
     buttonShow: "yes",
     buttonLabel: "Know More",
   },

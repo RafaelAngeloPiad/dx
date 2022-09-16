@@ -1,11 +1,11 @@
 import { about } from "../../data/about-data";
-import AboutUs from "../../AboutUs";
+import CompanyDesc from "../../CompanyDesc";
 import ScrollToTop from "../../ScrollToTop";
 function About() {
   return (
     <>
       <ScrollToTop />
-      <AboutUs data={about} />
+      <CompanyDesc data={about} />
     </>
   );
 }

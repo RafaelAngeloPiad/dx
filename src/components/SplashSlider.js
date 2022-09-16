@@ -6,38 +6,12 @@ import "./css/Splash.css";
 
 export default function SplashSlider(props) {
   const [slideIndex, setSlideIndex] = useState(1);
-  const [stickySplash, setstickySplash] = useState(1);
-  // setTimeout(() => {
-  //   nextSlide();
-  // }, 25000);
 
   const nextSlide = () => {
     if (slideIndex !== props.data.length) {
       setSlideIndex(slideIndex + 1);
     } else if (slideIndex === props.data.length) {
       setSlideIndex(1);
-    }
-  };
-
-  // const prevSlide = () => {
-  //   if (slideIndex !== 1) {
-  //     setSlideIndex(slideIndex - 1);
-  //   } else if (slideIndex === 1) {
-  //     setSlideIndex(props.data.length);
-  //   }
-  // };
-
-  // const moveDot = (index) => {
-  //   setSlideIndex(index);
-  //   console.log(index);
-  // };
-
-  const toggleStickySplash = () => {
-    console.log(window.scrollY);
-    if (window.scrollY >= 70) {
-      setstickySplash(false);
-    } else {
-      setstickySplash(true);
     }
   };
 
@@ -53,7 +27,13 @@ export default function SplashSlider(props) {
                 : "Splashslide not-active"
             }
           >
-            <div className={obj.background ? "Splashslide-overlay-container Splashslide-background" : "Splashslide-overlay-container"}>
+            <div
+              className={
+                obj.background
+                  ? `Splashslide-overlay-container Splashslide-${obj.background}`
+                  : "Splashslide-overlay-container"
+              }
+            >
               <div className="splash-section">
                 <div
                   className="splash_row"
@@ -79,11 +59,7 @@ export default function SplashSlider(props) {
                   </div>
                   <div className="splash_col">
                     <div className="splash_img_wrapper">
-                      <img
-                        src={obj.img}
-                        alt="DialogX"
-                        className="splash-img"
-                      />
+                      <img src={obj.img} alt="DialogX" className="splash-img" />
                     </div>
                   </div>
                 </div>

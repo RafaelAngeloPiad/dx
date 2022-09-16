@@ -1,0 +1,146 @@
+.page {
+  position: absolute;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.hide {
+  display: none;
+}
+
+/* appear - on page load 11111111111111111111*/
+.fade1-appear {
+  opacity: 0;
+  z-index: 1;
+}
+.fade1-appear.fade1-appear-active {
+  opacity: 1;
+  transition: opacity 500ms linear;
+}
+
+/* appear - on page load 22222222222222222222222222*/
+.fade2-appear {
+  opacity: 0;
+  z-index: 1;
+}
+.fade2-appear.fade2-appear-active {
+  opacity: 1;
+  transition: opacity 500ms linear 1000ms;
+}
+
+/* appear - on page load 33333333333333*/
+.fade3-appear {
+  opacity: 0;
+  z-index: 1;
+}
+.fade3-appear.fade3-appear-active {
+  opacity: 1;
+  transition: opacity 500ms linear 1500ms;
+}
+
+/* appear - on page load 44444444444*/
+.fade4-appear {
+  opacity: 0;
+  z-index: 1;
+}
+.fade4-appear.fade4-appear-active {
+  opacity: 1;
+  transition: opacity 500ms linear 2000ms;
+}
+
+/* slide enter */
+.slide-enter {
+  opacity: 0;
+  transform: scale(0.97) translateY(5px);
+  z-index: 1;
+}
+.slide-enter.slide-enter-active {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  transition: opacity 3000ms linear 1000ms, transform 3000ms ease-in-out 1000ms;
+}
+
+/* slide exit */
+.slide-exit {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+.slide-exit.slide-exit-active {
+  opacity: 0;
+  transform: scale(0.97) translateY(5px);
+  transition: opacity 1500ms linear, transform 1500ms ease-out;
+}
+.slide-exit-done {
+  opacity: 0;
+}
+
+/* appear - on page load */
+.fade-appear {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-appear-done {
+  opacity: 1;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity 1000ms linear;
+}
+
+/* enter */
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 5000ms linear 5000ms;
+}
+
+.fade-enter-done {
+  opacity: 1;
+}
+
+/* exit */
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 5000ms linear;
+}
+.fade-exit-done {
+  opacity: 0;
+}
+
+.fadepage-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fadepage-enter.fadepage-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}

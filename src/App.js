@@ -1,5 +1,6 @@
 import React from "react";
 import "./components/css/App.css";
+import "./components/css/Animations.css";
 import Home from "./components/pages/HomePage/Home";
 import CaaS from "./components/pages/CaaS/CaaS";
 import LearnMore from "./components/pages/LearnMore/LearnMore";
@@ -22,19 +23,20 @@ function App() {
     <Router>
       <>
         <Navbar />
-
         {routes.map(({ path, Component }) => (
           <Route key={path} exact path={path}>
             {({ match }) => (
               <CSSTransition
                 in={match != null}
-                timeout={500}
+                timeout={200}
                 classNames="page"
                 unmountOnExit
               >
-                <div className="page">
-                  <Component />
-                  <Footer />
+                <div className="page-container">
+                  <div className="page">
+                    <Component />
+                    <Footer />
+                  </div>
                 </div>
               </CSSTransition>
             )}

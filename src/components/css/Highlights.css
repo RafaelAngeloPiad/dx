@@ -6,7 +6,7 @@
   padding-left: 130px;
   padding-right: 130px;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
 
 .highlights-container h1 {
@@ -41,8 +41,6 @@
   padding-right: 50px;
 }
 
-
-
 .highlight-icon-wrapper {
   color: #fff;
   font-size: 10vh;
@@ -59,64 +57,58 @@
 }
 
 @media screen and (max-width: 960px) {
-
-.highlight-box::after {
-  bottom: 0;
-  content: "";
-  height: 1px;
-  left: 0;
-  position: relative;
-  margin-top: 20px;
-  background: #767676;
-}
-
+  .highlight-box::after {
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: relative;
+    margin-top: 20px;
+    background: #767676;
+  }
 }
 
 @media screen and (max-width: 600px) {
-
   .highlights-container {
     /* background: linear-gradient(180deg, #cd067c -115.12%, #ff6e05 177.33%),
       linear-gradient(0deg, #121212, #121212); */
     padding-left: 50px;
     padding-right: 50px;
-
   }
-  .highlight-box{
+  .highlight-box {
     padding-top: 30px;
   }
 
   .highlights-container h3 {
     padding-bottom: 10px;
   }
+}
+
+@media screen and (max-width: 400px) {
+  .highlights-container {
+    /* background: linear-gradient(180deg, #cd067c -115.12%, #ff6e05 177.33%),
+        linear-gradient(0deg, #121212, #121212); */
+    padding-left: 20px;
+    padding-right: 5px;
   }
 
-  @media screen and (max-width: 400px) {
+  .highlights-container h1 {
+    font-size: 6vh;
+  }
 
-    .highlights-container {
-      /* background: linear-gradient(180deg, #cd067c -115.12%, #ff6e05 177.33%),
-        linear-gradient(0deg, #121212, #121212); */
-      padding-left: 20px;
-      padding-right: 5px;
-    }
+  .highlights-container h3 {
+    font-size: 2vh;
+  }
 
-    .highlights-container h1 {
-      font-size: 6vh;
-    }
-    
-    .highlights-container h3 {
-      font-size: 2vh;
-    }
+  .highlight-heading {
+    font-size: 3vh;
+  }
 
-    .highlight-heading {
-      font-size: 3vh;
-    }
-    
-    .highlight-subtitle {
-      font-size: 2.2vh;
-    }
+  .highlight-subtitle {
+    font-size: 2.2vh;
+  }
 
-    .highlight-box-wrapper {
-
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    }
-    }
+  .highlight-box-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}

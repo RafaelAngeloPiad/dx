@@ -15,7 +15,7 @@ function Navbar() {
 
   const toggleTransparency = () => {
     console.log(window.scrollY);
-    if (window.scrollY >= 70) {
+    if (window.scrollY >= 10) {
       setTransparency(false);
     } else {
       setTransparency(true);
