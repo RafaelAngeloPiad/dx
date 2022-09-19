@@ -9,7 +9,7 @@ import { features } from "../../data/features-data";
 import { tiles } from "../../data/tiles-data";
 import { splash1 } from "../../data/splash-data";
 import SplashSlider from "../../SplashSlider";
-import ScrollToTop from "../../ScrollToTop";
+// import ScrollToTop from "../../ScrollToTop";
 import Highlights from "../../Highlights";
 
 window.addEventListener("load", (event) => {
@@ -19,7 +19,7 @@ window.addEventListener("load", (event) => {
 function Home() {
   return (
     <>
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
 
       {/* <PhotoSplash/> */}
 
