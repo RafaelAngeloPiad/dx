@@ -2,10 +2,10 @@ import Animate from "./animator/Animate.js";
 
 export const splash1 = [
   {
-    background: "background1",
     imgStart: "",
     headline: (
       <>
+        <br />
         <br />
         <p></p>
         <Animate animateClass="fade1">
@@ -36,7 +36,6 @@ export const splash1 = [
     buttonLabel: "Read More",
   },
   {
-    background: "yes",
     imgStart: "",
     headline: (
       <>
@@ -66,7 +65,6 @@ export const splash1 = [
 
 export const splashSlider = [
   {
-    background: "background2",
     id: "1",
     imgStart: "",
     headline: (
@@ -89,7 +87,6 @@ export const splashSlider = [
     buttonLabel: "Know More",
   },
   {
-    background: "background2",
     id: "2",
     imgStart: "",
     headline: (

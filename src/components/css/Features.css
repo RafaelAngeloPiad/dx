@@ -149,6 +149,12 @@
 
 @media screen and (max-width: 400px) {
   .custom_features-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .custom_features-container {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 }

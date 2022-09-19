@@ -30,6 +30,7 @@
 
 .mainHeadline {
   color: #fe8464;
+  letter-spacing: -0.05em;
   /* text-shadow: 1.5px 1.5px #a84420; */
 }
 
@@ -71,7 +72,7 @@
     font-size: 8vh;
   }
   .splash_subtitle {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 5.5vmax;
   }
 
@@ -85,21 +86,25 @@
 }
 
 @media screen and (max-width: 550px) {
-  .splash_heading {
-    text-align: center;
-  }
   .splash-section {
-    padding-left: 0px;
+    padding-left: 20px;
   }
 }
 
 @media screen and (max-width: 400px) {
+  .splash-section {
+    padding-left: 0px;
+  }
   .splash_heading {
-    font-size: 6vh;
+    font-size: 5.8vh;
   }
 }
 
 @media screen and (max-width: 300px) {
+  .splash-section {
+    padding-left: 0px;
+    width: 280px;
+  }
   .splash_heading {
     font-size: 30px;
   }

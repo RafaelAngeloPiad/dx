@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./components/css/App.css";
 import "./components/css/Animations.css";
+
 import Home from "./components/pages/HomePage/Home";
 import CaaS from "./components/pages/CaaS/CaaS";
 import LearnMore from "./components/pages/LearnMore/LearnMore";
@@ -10,6 +11,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import About from "./components/pages/About/About";
 import { CSSTransition } from "react-transition-group";
+import Loading from "react-fullscreen-loading";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
@@ -19,9 +21,19 @@ const routes = [
 ];
 
 function App() {
+  const [waiting, setWaiting] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setWaiting(false);
+    }, 1000);
+  });
+
   return (
     <Router>
       <>
+        <Loading loading={waiting} background="#fff" loaderColor="#fd8567" />
+        ;
         <Navbar />
         {routes.map(({ path, Component }) => (
           <Route key={path} exact path={path}>

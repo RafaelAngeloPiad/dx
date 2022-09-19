@@ -16,7 +16,7 @@ export default function SplashSlider(props) {
   };
 
   return (
-    <div className="container-splashSlider">
+    <div className="container-splashSlider Splashslide-background1">
       {props.data.map((obj, index) => {
         return (
           <div
@@ -27,13 +27,7 @@ export default function SplashSlider(props) {
                 : "Splashslide not-active"
             }
           >
-            <div
-              className={
-                obj.background
-                  ? `Splashslide-overlay-container Splashslide-${obj.background}`
-                  : "Splashslide-overlay-container"
-              }
-            >
+            <div className="Splashslide-overlay-container">
               <div className="splash-section">
                 <div
                   className="splash_row"

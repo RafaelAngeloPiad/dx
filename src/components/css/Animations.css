@@ -35,7 +35,7 @@
 }
 .fade1-appear.fade1-appear-active {
   opacity: 1;
-  transition: opacity 500ms linear;
+  transition: opacity 500ms linear 1000ms;
 }
 
 /* appear - on page load 22222222222222222222222222*/
@@ -45,7 +45,7 @@
 }
 .fade2-appear.fade2-appear-active {
   opacity: 1;
-  transition: opacity 500ms linear 1000ms;
+  transition: opacity 500ms linear 1500ms;
 }
 
 /* appear - on page load 33333333333333*/
@@ -55,7 +55,7 @@
 }
 .fade3-appear.fade3-appear-active {
   opacity: 1;
-  transition: opacity 500ms linear 1500ms;
+  transition: opacity 500ms linear 2000ms;
 }
 
 /* appear - on page load 44444444444*/
@@ -65,7 +65,7 @@
 }
 .fade4-appear.fade4-appear-active {
   opacity: 1;
-  transition: opacity 500ms linear 2000ms;
+  transition: opacity 500ms linear 2500ms;
 }
 
 /* slide enter */

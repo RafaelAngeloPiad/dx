@@ -14,15 +14,15 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-transform: scale(1);
-  transform: scale(1);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 .s_tiles:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1);
+  transform: scale(1);
   cursor: pointer;
 }
 

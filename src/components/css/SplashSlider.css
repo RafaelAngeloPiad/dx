@@ -1,5 +1,4 @@
 .container-splashSlider {
-  padding-top: 30px;
   height: 51vmax;
   position: relative;
   overflow: hidden;
@@ -60,6 +59,9 @@
   .container-splashSlider {
     height: 170vmax;
   }
+  .Splashslide-background1 {
+    background: url(../../../public/images/ginger3.jpg) center center no-repeat;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -67,6 +69,12 @@
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container-splashSlider {
+    height: 160vmax;
   }
 }
 

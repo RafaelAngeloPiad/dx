@@ -107,10 +107,10 @@ img {
   }
   .adv_top-line {
     padding-top: 300px;
-    font-size: 3vmax;
+    font-size: 2vmax;
   }
   .adv_heading {
-    font-size: 8vmax;
+    font-size: 7vmax;
   }
   .adv-subtitle {
     font-size: 3vmax;
@@ -135,6 +135,8 @@ img {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
   }
   .adv_top-line {
     padding-top: 60px;
@@ -142,6 +144,6 @@ img {
   .adv-img-wrapper {
     position: absolute;
     width: 70px;
-    left: 35%;
+    left: 40%;
   }
 }

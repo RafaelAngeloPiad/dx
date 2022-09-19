@@ -12,7 +12,6 @@ function CaaS() {
   return (
     <>
       <ScrollToTop />
-      <SplashSlider data={splashSlider} />
       <Header3 data={headerProduct2} />
       <Hero {...productHero} />
       <Hero {...insights} />
