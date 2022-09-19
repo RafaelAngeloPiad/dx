@@ -9,20 +9,13 @@ import { features } from "../../data/features-data";
 import { tiles } from "../../data/tiles-data";
 import { splash1 } from "../../data/splash-data";
 import SplashSlider from "../../SplashSlider";
-// import ScrollToTop from "../../ScrollToTop";
+import ScrollToTop from "../../ScrollToTop";
 import Highlights from "../../Highlights";
-
-window.addEventListener("load", (event) => {
-  console.log("page is fully loaded");
-});
 
 function Home() {
   return (
     <>
-      {/* <ScrollToTop /> */}
-
-      {/* <PhotoSplash/> */}
-
+      <ScrollToTop />
       <SplashSlider data={splash1} />
       <Highlights />
       <Advantages data={advantage} />
