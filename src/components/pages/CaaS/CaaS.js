@@ -4,8 +4,6 @@ import ProductCards from "../../ProductCards";
 import { insights, productHero } from "../../data/hero-data";
 import { product_card } from "../../data/productcards-data";
 import { headerProduct2 } from "../../data/header-data";
-import SplashSlider from "../../SplashSlider";
-import { splashSlider } from "../../data/splash-data";
 import ScrollToTop from "../../ScrollToTop";
 
 function CaaS() {
